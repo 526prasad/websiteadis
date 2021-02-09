@@ -11,6 +11,7 @@ function Team() {
                     <div>
                         Our Amazing Team
                     </div>
+                    <hr/>
                 </div>
                 <div className="team-body">
                     <div className="card card-1">
@@ -22,13 +23,13 @@ function Team() {
                             <div className="founder">Founder</div>
                             <div className="social-media">
                                 <div>
-                                    <i className="fa fa-facebook-official" aria-hidden="true"></i>
+                                    <a href="/" rel="noopener noreferrer" target="_blank"> <i className="fa fa-facebook-official" aria-hidden="true"></i></a>
                                 </div>
                                 <div>
-                                    <i className="fa fa-twitter" aria-hidden="true"></i>
+                                    <a href="/" rel="noopener noreferrer" target="_blank"> <i className="fa fa-twitter" aria-hidden="true"></i></a>
                                 </div>
                                 <div>
-                                    <i className="fa fa-linkedin" aria-hidden="true"></i>
+                                    <a href="https://www.linkedin.com/in/sujithukkerikar/" target="_blank" rel="noopener noreferrer"> <i className="fa fa-linkedin" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -42,13 +43,13 @@ function Team() {
                             <div className="founder">Founder</div>
                             <div className="social-media">
                                 <div>
-                                    <i className="fa fa-facebook-official" aria-hidden="true"></i>
+                                    <a href="/" rel="noopener noreferrer" target="_blank"> <i className="fa fa-facebook-official" aria-hidden="true"></i></a>
                                 </div>
                                 <div>
-                                    <i className="fa fa-twitter" aria-hidden="true"></i>
+                                    <a href="/" rel="noopener noreferrer" target="_blank"> <i className="fa fa-twitter" aria-hidden="true"></i></a>
                                 </div>
                                 <div>
-                                    <i className="fa fa-linkedin" aria-hidden="true"></i>
+                                    <a href="https://www.linkedin.com/in/prasad-desai-a532734b/" rel="noopener noreferrer" target="_blank"> <i className="fa fa-linkedin" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -62,13 +63,13 @@ function Team() {
                             <div className="founder">Founder</div>
                             <div className="social-media">
                                 <div>
-                                    <i className="fa fa-facebook-official" aria-hidden="true"></i>
+                                    <a href="/" rel="noopener noreferrer" target="_blank"> <i className="fa fa-facebook-official" aria-hidden="true"></i></a>
                                 </div>
                                 <div>
-                                    <i className="fa fa-twitter" aria-hidden="true"></i>
+                                    <a href="/" rel="noopener noreferrer" target="_blank"> <i className="fa fa-twitter" aria-hidden="true"></i></a>
                                 </div>
                                 <div>
-                                    <i className="fa fa-linkedin" aria-hidden="true"></i>
+                                    <a href="/" rel="noopener noreferrer" target="_blank"> <i className="fa fa-linkedin" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>

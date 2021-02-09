@@ -12,6 +12,7 @@ class Services extends React.Component {
                     <div className="ser-head">
                         <div className="ser-name">
                             <h3>Our Services</h3>
+                            <hr/>
                         </div>
                         <div className="ser-par">
                             <p>Get Started!!!</p>

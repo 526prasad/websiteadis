@@ -97,13 +97,8 @@
         width: 40%;
     }
     /* about */
-    .about-container{
-        width: 80%;
-        margin-left: 7%;
-        padding: 20px;
-    }
-    .ab-para{
-        padding: 5px;
+    .added .ab .ab-name .hr1{
+        margin-left: 36%;
     }
     .pngimgs .png-img .png-img1{
        width: 70%;
@@ -183,6 +178,9 @@
     .services-container .ser-body .ser-card2 .ser-desc{
         margin-top: 40px;
     }
+    .services-container .ser-head .ser-name hr{
+        margin-left:33% ;
+    }
     /* team */
     .team-container .team-body .card .card-img{
         width: 120px;
@@ -204,6 +202,9 @@
       .team-container .team-body .card .desc .social-media{
         margin-left: 26%;
       }
+    .team-container .t-name>hr{
+        margin-left: 28%;
+    }
       /* contact */
       .contact-container .contact-body{
         margin-left: 9%;
@@ -370,7 +371,7 @@
         margin-left: 5%;
     }
     .ab-name{
-        padding: 20px 0px 0px 0px ;
+        padding: 0px 0px 0px 20px ;
         font-size: 25px;
     }
     .ab-para{
@@ -384,7 +385,23 @@
     }
      .about-down{
         margin-top: 15px;
-      }
+    }
+    .about-container.added{
+        padding-top: 20px;
+        height: 150vh;
+    }
+    .about-container.added .ab{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .about-container.added .ab .ab-name{
+        padding: 0;
+        text-align: center;
+        padding-top: 15px;
+    }
+    .about-container.added .ab .ab-name hr{
+        margin-left: 30%;
+    }
     /* contact */
     .contact{
         height: 110vh;
@@ -443,6 +460,7 @@
     .sub-container .sub-container-body .c-body .c-desc p{
         font-size: 12px;
     }
+
     /* login */
     .login{
         height: 65vh;
@@ -510,6 +528,9 @@
     .services-container .ser-body .ser-card2 .ser-desc{
         margin-top: 10px;
     }
+    .services-container .ser-head .ser-name hr{
+        margin-left:10% ;
+    }
     /* team */
     .team-container{
        padding: 5px;
@@ -557,6 +578,10 @@
         margin-left: 20%;
         margin-bottom: 20px;
     } 
+    .team-container .t-name>hr{
+        width: 250px;
+        margin-left: 9%;
+    }
 
 }
 
@@ -709,34 +734,40 @@
         margin-left: 140px;
       }
     /* home */
-    .home{
-        height: 60vh;
-        background-size:100% 60vh;
-    }
     .home-container{
-        padding: 140px 10px 10px 5px;
+        margin-top: 10px;
+        padding: 30px 30px 0px 0px;
+    }
+    .home-container .unnamed .unnamed-img{
+        width: 60%;
     }
     .home-container .c-name{
-        padding: 25px 5px 5px 25px;
-    }
-    .home-container .c-name>div{
-        font-size: 30px;
+        padding: 0px 5px 5px 50px;
     }
     .home-container .c-desc{
-        padding: 0px 0px 0px 25px;
+        padding: 8px 5px 5px 20px;
+    }
+    .home-container .c-name>div{
+        font-size:40px;
     }
     .home-container .c-desc div{
-        font-size: 14px;
+        font-size: 9px;
+    }
+    .back-img1{
+        width: 40%;
     }
     /* about */
     .about-container{
-        margin: 5px;
-        padding: 5px;
+        margin-top: 5px;
         width: 90%;
-        margin-left: 4%;
+        margin-left: 5%;
     }
     .ab-name{
-        font-size: 22px;
+        padding: 0px 0px 0px 20px ;
+        font-size: 25px;
+    }
+    .ab-para{
+        padding: 18px;
     }
     .ab-para p{
         font-size: 14px;
@@ -747,6 +778,27 @@
      .about-down{
         margin-top: 15px;
     }
+    .about-container.added{
+        padding-top: 20px;
+        height: 200vh;
+    }
+    .about-container.added .ab{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .about-container.added .ab .ab-name{
+        padding: 0;
+        text-align: center;
+        padding-top: 15px;
+    }
+    .about-container.added .ab .ab-name hr{
+        margin-left: 30%;
+    }
+    .about-container.added .ab .ab-para p{
+        font-size: 14px;
+    }
+
+
     /* services */
     .services-container .ser-body{
         width:90%;
@@ -785,6 +837,10 @@
     .services-container .ser-body .ser-card1 .ser-desc,
     .services-container .ser-body .ser-card2 .ser-desc{
         margin-top: 10px;
+    }
+    .services-container .ser-head .ser-name hr{
+        width: 250px;
+        margin-left:5% ;
     }
     /* team */
     .team-container{
@@ -833,6 +889,10 @@
          margin-left: 20%;
          margin-bottom: 20px;
      } 
+     .team-container .t-name>hr{
+        width: 250px;
+        margin-left: 4%;
+    }
     /* contact */
     .contact{
         height: 100vh;
