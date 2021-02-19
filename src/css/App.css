@@ -922,99 +922,11 @@ nav .navigation ul li a:hover{
 .home .login-container .btns .btns1 .button-container .button:hover{
   box-shadow: 5px 5px 10px gainsboro;
 }
-/* signin  registration*/
-.home .login-container .btns .btns1 .button-container .signin,
-.home .login-container .btns .btns1 .button-container .signup {
-  display: none;
-}
-.home .login-container .btns .btns1 .button-container .signin.on,
-.home .login-container .btns .btns1 .button-container .signup.on {
-  display: block;
-  z-index: 1;
-  position: absolute;
-  top:0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding:0 ;
-  margin: 0;
-  width: 100%;
-  background-color: rgba(61, 68, 61, 0.5);
-}
-.home .login-container .btns .btns1 .button-container .signin.on .log {
-  margin-top: 50px;
-  width: 40%;
-  margin-left:30% ;
-  text-align: center;
-  background-color: white;
-  border-radius: 5px;
-  box-shadow: 3px 3px  5px gray;
-}
-.home .login-container .btns .btns1 .button-container .signup.on .reg{
-  margin-top: 20px;
-  width: 40%;
-  margin-left:30% ;
-  text-align: center;
-  background-color: white;
-  border-radius: 5px;
-  box-shadow: 3px 3px  5px gray;
-}
-.home .login-container .btns .btns1 .button-container .signin.on .log .log-container,
-.home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container{
-  padding: 20px;
-}
-.home .login-container .btns .btns1 .button-container .signin.on .log .log-container .head,
-.home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container .head{
-  padding: 20px;
-}
-.home .login-container .btns .btns1 .button-container .signin.on .log .log-container .head>h2,
-.home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container .head>h2{
-  font-size: 29px;
-}
-.home .login-container .btns .btns1 .button-container .signin.on .log .log-container .hr,
-.home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container .hr{
-  border:1px solid rgb(250, 248, 248);
-}
-.home .login-container .btns .btns1 .button-container .signin.on .log .log-container>form,
-.home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container>form{
-  padding: 5px;
-}
-.home .login-container .btns .btns1 .button-container .signin.on .log .log-container form .inputs{
-  display: flex;
-  flex-flow: column nowrap;
-  padding:10px ;
-}
-.home .login-container .btns .btns1 .button-container .signin.on .log .log-container form .inputs .input-login,
-.home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container form .input-div .input-reg  {
-  padding:15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  outline: none;
-  border:none;
-  border-radius: 5px;
-  box-shadow: 1px 1px 5px gainsboro;
-  font-size: 15px;
-}
-.home .login-container .btns .btns1 .button-container .signin.on .log .log-container form .btn,
-.home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container form .btn{
-  padding:10px ;
-}
-.home .login-container .btns .btns1 .button-container .signin.on .log .log-container form .btn .btn1,
-.home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container form .btn .btn1{
-  padding:10px 90px;
-  margin: 10px;
-  outline: none;
-  border: none;
-  box-shadow: 1px 1px 5px #f0a500;
-  background-color: #f0a500;
-  color: white;
-  font-size: 15px;
-  letter-spacing: 1px;
-}
-.home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container form .input-div{
-  display: flex;
-  flex-flow: column nowrap;
-}
+
+
+
+
+
 
 
 

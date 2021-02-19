@@ -12,7 +12,7 @@ import Services from './Services';
 import Team from './Team';
 import Contact from './Contact';
 import Login from './Login';
-
+import { TitleComponent } from './TitleComponent';
 
 function Nav() {
     const [active, setActive] = useState(false);
@@ -26,6 +26,27 @@ function Nav() {
         }
     }
     window.addEventListener('scroll',changeBackgrounfcolor)
+
+    // setting title
+    const withTitle = ({ component: Component, title }) => {
+        return class Title extends Component {
+            render() {
+                return (
+                    <React.Fragment>
+                        <TitleComponent title={title} />
+                        <Component {...this.props} />
+                    </React.Fragment>
+                );
+            }
+        };
+    };
+    // const HomeComponent = withTitle({ component: Home, title: 'Home' });
+    const AboutComponent = withTitle({ component: About, title: 'About' });
+    const ContactComponent = withTitle({ component: Contact, title: 'Contact' });
+    const ServicesComponent = withTitle({ component: Services, title: 'Services' });
+    const TeamComponent = withTitle({ component: Team, title: 'Team' });
+    const LoginComponent = withTitle({ component: Login, title: 'Login' });
+
 
 
     return (
@@ -60,19 +81,19 @@ function Nav() {
                 </div>
 
                 <Switch>
-                    <Route path="/about">
+                    <Route path="/about" component={AboutComponent}>
                         <About />
                     </Route>
-                    <Route path="/services">
+                    <Route path="/services" component={ServicesComponent}>
                         <Services />
                     </Route>
-                    <Route path="/team">
+                    <Route path="/team" component={TeamComponent}>
                         <Team />
                     </Route>
-                    <Route path="/contact">
+                    <Route path="/contact" component={ContactComponent}>
                         <Contact />
                     </Route>
-                    <Route path="/login">
+                    <Route path="/login" component={LoginComponent}>
                         <Login />
                     </Route>
                     <Route path="/" exact={true}>

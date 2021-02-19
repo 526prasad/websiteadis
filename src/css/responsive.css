@@ -135,28 +135,7 @@
       .login-container .unnamed .unnamed-img{
         width: 60%;
     }
-    .home .login-container .btns .btns1 .button-container .signin.on .log,
-    .home .login-container .btns .btns1 .button-container .signup.on .reg {
-        margin-top: 15px;
-    }
-    .home .login-container .btns .btns1 .button-container .signin.on .log .log-container,
-    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container,
-    .home .login-container .btns .btns1 .button-container .signin.on .log .log-container .head,
-    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container .head{
-        padding: 5px;
-    }
-    .home .login-container .btns .btns1 .button-container .signin.on .log .log-container .head>h2,
-    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container .head>h2{
-        font-size: 25px;
-    }
-    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container form .input-div{
-        padding-left:5px ;
-        padding-right: 5px;
-      }
-      .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container form .input-div .input-reg  {
-        margin-top: 10px;
-        margin-bottom: 10px;
-      }
+    
     /* about carousel */
     .about-down{
         margin-top: 50px;
@@ -507,34 +486,16 @@
         padding-bottom: 70px ;
         flex-flow: column nowrap;
       }
-      .home .login-container .btns .btns1 .button-container .signin.on .log ,
-      .home .login-container .btns .btns1 .button-container .signup.on .reg{
-        margin-top: 10px;
-        width: 80%;
-        margin-left:10% ;
+      .home .login-container .btns .btns1 .button-container .div .button1{
+        padding: 15px 64px;
+        width: 100%;
       }
-      .home .login-container .btns .btns1 .button-container .signin.on .log .log-container,
-    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container,
-    .home .login-container .btns .btns1 .button-container .signin.on .log .log-container .head,
-    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container .head{
-        padding: 5px;
-    }
-    .home .login-container .btns .btns1 .button-container .signin.on .log .log-container .head>h2,
-    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container .head>h2{
-        font-size: 23px;
-    }
-    .home .login-container .btns .btns1 .button-container .signin.on .log .log-container form .inputs .input-login,
-    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container form .input-div .input-reg  {
-        padding:10px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        font-size: 13px;
-    }
-    .home .login-container .btns .btns1 .button-container .signin.on .log .log-container form .btn .btn1,
-    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container form .btn .btn1{
-        margin: 5px;
-        font-size: 13px;
-    }
+      .home .login-container .btns .btns1 .button-container .div .button2{
+        padding: 15px 60px;
+      }
+      .home .login-container .btns .btns1 .button-container .div {
+          margin: 10px;
+      }
     /* services */
     .services-container .ser-head .ser-name>h3{
         font-size: 30px;
@@ -1008,49 +969,26 @@
         font-size: 12px;
     }
     /* login */
-    .home .login-container .btns .btns1 .button-container .signin.on,
-    .home .login-container .btns .btns1 .button-container .signup.on {
-         z-index: 2;
-    }
     .home .login-container .unnamed,
     .login .bac-img{
         display: none;
     }
-    .home .login-container .btns .btns1 .button-container .button{
+    .home .login-container .btns .btns1 .button-container .div .button1{
+        padding: 15px 64px;
+        width: 100%;
+      }
+      .home .login-container .btns .btns1 .button-container .div .button2{
         padding: 15px 60px;
       }
-    .home .login-container .btns .btns1{
+    
+      .home .login-container .btns .btns1 .button-container .div {
+          margin: 10px;
+      }
+      .home .login-container .btns .btns1{
+        width: 100%;
         padding-top:10px;
-        padding-bottom: 70px ;
+        padding-bottom: 0px ;
+        padding-left: 0;
         flex-flow: column nowrap;
       }
-      .home .login-container .btns .btns1 .button-container .signin.on .log ,
-      .home .login-container .btns .btns1 .button-container .signup.on .reg{
-        margin-top: 10px;
-        width: 80%;
-        margin-left:10% ;
-      }
-      .home .login-container .btns .btns1 .button-container .signin.on .log .log-container,
-    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container,
-    .home .login-container .btns .btns1 .button-container .signin.on .log .log-container .head,
-    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container .head{
-        padding: 5px;
-    }
-    .home .login-container .btns .btns1 .button-container .signin.on .log .log-container .head>h2,
-    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container .head>h2{
-        font-size: 23px;
-    }
-    .home .login-container .btns .btns1 .button-container .signin.on .log .log-container form .inputs .input-login,
-    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container form .input-div .input-reg  {
-        padding:10px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        font-size: 13px;
-    }
-    .home .login-container .btns .btns1 .button-container .signin.on .log .log-container form .btn .btn1,
-    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container form .btn .btn1{
-        padding:10px 50px;
-        margin: 5px;
-        font-size: 13px;
-    }
 }
