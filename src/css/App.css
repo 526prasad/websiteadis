@@ -296,7 +296,7 @@ nav .navigation ul li a:hover{
 }
 .home-container{
   margin-top: 50px;
-  padding: 120px 30px 0px 0px;
+  padding: 90px 30px 0px 0px;
 }
 .home-container .c-name{
   padding: 0px 25px 25px 150px;
@@ -372,7 +372,6 @@ nav .navigation ul li a:hover{
   width: 90px;
   transition: width 1s;
 }
-
 .about-container:hover .ab .ab-name .hr1{
   width: 130px;
 }
@@ -897,92 +896,125 @@ nav .navigation ul li a:hover{
 } 
 
 /* login */
-.login{
-  width: 100%;
-  background-color: white;
-  overflow: hidden;
+.home .login-container .btns{
+  padding: 30px;
 }
-.login-container{
-  padding:50px 25px 25px 25px;
-  margin-bottom: 50px;
-}
-.login-main{
-  width: 35%;
-  margin-left: 32.5%;
-  border-radius: 5px;
-  background-color: white;
-  box-shadow: 1px 1px 10px rgb(253, 157, 83);
-  padding: 10px;
-  height: 350px;
-  overflow: hidden;
-}
-.login-main .login-name{
-  padding: 10px ;
-  text-align: center;
-  border-bottom: 1px solid rgb(253, 157, 83);
-}
-.login-main .login-name div{
-  font-size: 25px;
-  font-weight: 600;
-  color: black;
-}
-.login-main .login-body{
-  width: 100%;
-}
-.login-main .login-body .input-body{
-  padding:  30px 10px 30px 15px;
-  border-bottom: 1px solid rgb(253, 157, 83);
-}
-.login-main .login-body .input-body .input{
-  width: 90%;
-  margin-left:5% ;
-  height: 20px;
-  margin: 10px;
-  padding: 10px;
-  outline: none;
-  border-radius: 30px;
-  margin-bottom: 20px;
-  background: transparent;
-  border: 1px solid rgb(250, 151, 98);
-  box-shadow: 1px 1px 3px rgb(253, 157, 83);
-}
-.login-main .login-body .input-body .input:focus,
-.login-main .login-body .input-body .input:hover{
-  outline: none;
-}
-.input:focus{
-  outline: none !important; 
-  border-color: #eb9a43 !important; 
-}
-.login-main .login-body .input-body .input::placeholder{
-  font-size: 14px;
-  font-weight: 400;
-  color: black;
-}
-.login-main .login-body .input-body input[type=email],
-.login-main .login-body .input-body input[type=password]{
-  color: black;
-  font-size: 15px;
-  letter-spacing: 0.5px;
-}
-.login-main .login-body .button{
-  padding: 25px 5px 25px 5px;
+.home .login-container .btns .btns1{
+  padding-top:120px;
+  padding-bottom: 70px ;
+  padding-left: 20px;
   display: flex;
+  flex-flow: row nowrap;
 }
-.login-main .login-body .button .button-container{
+.home .login-container .btns .btns1 .button-container{
+  margin: 10px;
+}
+.home .login-container .btns .btns1 .button-container .button{
+  background-color: #f0a500;
+  padding: 15px 80px;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px gainsboro;
+  letter-spacing: 1px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.home .login-container .btns .btns1 .button-container .button:hover{
+  box-shadow: 5px 5px 10px gainsboro;
+}
+/* signin  registration*/
+.home .login-container .btns .btns1 .button-container .signin,
+.home .login-container .btns .btns1 .button-container .signup {
+  display: none;
+}
+.home .login-container .btns .btns1 .button-container .signin.on,
+.home .login-container .btns .btns1 .button-container .signup.on {
+  display: block;
+  z-index: 1;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding:0 ;
+  margin: 0;
   width: 100%;
-  text-align: center;
+  background-color: rgba(61, 68, 61, 0.5);
 }
-.login-main .login-body .button .button-container .login-btn{
-  padding: 10px 55px;
-  border-radius: 50px;
+.home .login-container .btns .btns1 .button-container .signin.on .log {
+  margin-top: 50px;
+  width: 40%;
+  margin-left:30% ;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px  5px gray;
+}
+.home .login-container .btns .btns1 .button-container .signup.on .reg{
+  margin-top: 20px;
+  width: 40%;
+  margin-left:30% ;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px  5px gray;
+}
+.home .login-container .btns .btns1 .button-container .signin.on .log .log-container,
+.home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container{
+  padding: 20px;
+}
+.home .login-container .btns .btns1 .button-container .signin.on .log .log-container .head,
+.home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container .head{
+  padding: 20px;
+}
+.home .login-container .btns .btns1 .button-container .signin.on .log .log-container .head>h2,
+.home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container .head>h2{
+  font-size: 29px;
+}
+.home .login-container .btns .btns1 .button-container .signin.on .log .log-container .hr,
+.home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container .hr{
+  border:1px solid rgb(250, 248, 248);
+}
+.home .login-container .btns .btns1 .button-container .signin.on .log .log-container>form,
+.home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container>form{
+  padding: 5px;
+}
+.home .login-container .btns .btns1 .button-container .signin.on .log .log-container form .inputs{
+  display: flex;
+  flex-flow: column nowrap;
+  padding:10px ;
+}
+.home .login-container .btns .btns1 .button-container .signin.on .log .log-container form .inputs .input-login,
+.home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container form .input-div .input-reg  {
+  padding:15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  outline: none;
+  border:none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px gainsboro;
+  font-size: 15px;
+}
+.home .login-container .btns .btns1 .button-container .signin.on .log .log-container form .btn,
+.home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container form .btn{
+  padding:10px ;
+}
+.home .login-container .btns .btns1 .button-container .signin.on .log .log-container form .btn .btn1,
+.home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container form .btn .btn1{
+  padding:10px 90px;
+  margin: 10px;
+  outline: none;
+  border: none;
+  box-shadow: 1px 1px 5px #f0a500;
   background-color: #f0a500;
   color: white;
-  text-decoration: none;
-  font-weight: 400;
-  /* letter-spacing: 0.5px; */
   font-size: 15px;
+  letter-spacing: 1px;
 }
-.login-main .login-body .button .button-container .login-btn:hover{
-  background-color: #cf7500;
+.home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container form .input-div{
+  display: flex;
+  flex-flow: column nowrap;
 }
+
+
+

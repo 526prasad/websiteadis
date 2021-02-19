@@ -117,25 +117,46 @@
         top:30%
     }
     /* login */
-    .login{
-        height: 500px;
-        background-size:100% 500px;
+    .home .login-container .btns{
+        padding: 20px;
+      }
+      .home .login-container .btns .btns1{
+        padding-top:150px;
+        padding-left:10px;
+        padding-bottom: 80px;
+      }
+      .home .login-container .btns .btns1 .button-container{
+        margin: 5px;
+      }
+      .home .login-container .btns .btns1 .button-container .button{
+        padding: 15px 60px;
+        font-size: 15px;
+      }
+      .login-container .unnamed .unnamed-img{
+        width: 60%;
     }
-    .login-container{
-        padding:60px 20px 20px 20px;
+    .home .login-container .btns .btns1 .button-container .signin.on .log,
+    .home .login-container .btns .btns1 .button-container .signup.on .reg {
+        margin-top: 15px;
     }
-    .login-main{
-        width: 40%;
-        margin-left: 29.5%;
-        background-size: 100% 400px;
-        height: 350px;
+    .home .login-container .btns .btns1 .button-container .signin.on .log .log-container,
+    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container,
+    .home .login-container .btns .btns1 .button-container .signin.on .log .log-container .head,
+    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container .head{
+        padding: 5px;
     }
-    .login-main .login-body .input-body{
-        padding:  30px 10px 30px 15px;
+    .home .login-container .btns .btns1 .button-container .signin.on .log .log-container .head>h2,
+    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container .head>h2{
+        font-size: 25px;
     }
-    .login-main .login-body .button .button-container .login-btn{
-        padding:8px 40px;
-    }
+    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container form .input-div{
+        padding-left:5px ;
+        padding-right: 5px;
+      }
+      .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container form .input-div .input-reg  {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
     /* about carousel */
     .about-down{
         margin-top: 50px;
@@ -246,6 +267,7 @@
         display: none;
     }
     nav .open{
+        z-index: 1;
         display: block;
         background-color: white;
         position: fixed;
@@ -402,6 +424,16 @@
     .about-container.added .ab .ab-name hr{
         margin-left: 30%;
     }
+    .about-down-container .owl-carousel .owl-stage-outer .owl-stage .owl-item{
+        padding-top: 15px;
+      }
+    .about-down-container .owl-carousel .owl-stage-outer .owl-stage .owl-item .item .img img{
+        height: 200px;
+    }
+    .center{
+        height: 280px;
+        padding-top: 0px;
+      }
     /* contact */
     .contact{
         height: 110vh;
@@ -462,32 +494,46 @@
     }
 
     /* login */
-    .login{
-        height: 65vh;
-        background-size:100% 65vh;
+    .home .login-container .btns .btns1 .button-container .signin.on,
+    .home .login-container .btns .btns1 .button-container .signup.on {
+         z-index: 2;
     }
-    .login-container{
-        padding: 15px;
+    .home .login-container .unnamed,
+    .login .bac-img{
+        display: none;
     }
-    .login-main{
+    .home .login-container .btns .btns1{
+        padding-top:10px;
+        padding-bottom: 70px ;
+        flex-flow: column nowrap;
+      }
+      .home .login-container .btns .btns1 .button-container .signin.on .log ,
+      .home .login-container .btns .btns1 .button-container .signup.on .reg{
+        margin-top: 10px;
         width: 80%;
-        margin-left: 7%;
-        height: 46vh;
-        background-size: 100% 350px;
+        margin-left:10% ;
+      }
+      .home .login-container .btns .btns1 .button-container .signin.on .log .log-container,
+    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container,
+    .home .login-container .btns .btns1 .button-container .signin.on .log .log-container .head,
+    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container .head{
+        padding: 5px;
     }
-    .login-main .login-body .input-body{
-        padding:  20px 10px 20px 15px;
+    .home .login-container .btns .btns1 .button-container .signin.on .log .log-container .head>h2,
+    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container .head>h2{
+        font-size: 23px;
     }
-    .login-main .login-body .input-body .input{
-        height: 15px;
-        margin-left: 0;
+    .home .login-container .btns .btns1 .button-container .signin.on .log .log-container form .inputs .input-login,
+    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container form .input-div .input-reg  {
+        padding:10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 13px;
     }
-    .login-main .login-body .input-body .input::placeholder{
-        font-size: 12px;
-    }
-    .login-main .login-body .button .button-container .login-btn{
-        padding: 9px 30px;
-        font-size: 14px;
+    .home .login-container .btns .btns1 .button-container .signin.on .log .log-container form .btn .btn1,
+    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container form .btn .btn1{
+        margin: 5px;
+        font-size: 13px;
     }
     /* services */
     .services-container .ser-head .ser-name>h3{
@@ -797,7 +843,16 @@
     .about-container.added .ab .ab-para p{
         font-size: 14px;
     }
-
+    .about-down-container .owl-carousel .owl-stage-outer .owl-stage .owl-item{
+        padding-top: 15px;
+      }
+    .about-down-container .owl-carousel .owl-stage-outer .owl-stage .owl-item .item .img img{
+        height: 180px;
+    }
+    .center{
+        height: 250px;
+        padding-top: 0px;
+    }
 
     /* services */
     .services-container .ser-body{
@@ -953,30 +1008,49 @@
         font-size: 12px;
     }
     /* login */
-    .login{
-        height: 65vh;
-        background-size:100% 65vh;
+    .home .login-container .btns .btns1 .button-container .signin.on,
+    .home .login-container .btns .btns1 .button-container .signup.on {
+         z-index: 2;
     }
-    .login-container{
-        padding: 15px;
+    .home .login-container .unnamed,
+    .login .bac-img{
+        display: none;
     }
-    .login-main{
+    .home .login-container .btns .btns1 .button-container .button{
+        padding: 15px 60px;
+      }
+    .home .login-container .btns .btns1{
+        padding-top:10px;
+        padding-bottom: 70px ;
+        flex-flow: column nowrap;
+      }
+      .home .login-container .btns .btns1 .button-container .signin.on .log ,
+      .home .login-container .btns .btns1 .button-container .signup.on .reg{
+        margin-top: 10px;
         width: 80%;
-        margin-left: 6%;
-        height: 50vh;
-        background-size: 100% 400px;
+        margin-left:10% ;
+      }
+      .home .login-container .btns .btns1 .button-container .signin.on .log .log-container,
+    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container,
+    .home .login-container .btns .btns1 .button-container .signin.on .log .log-container .head,
+    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container .head{
+        padding: 5px;
     }
-    .login-main .login-body .input-body{
-        padding:  10px 10px 10px 0px;
-    } 
-    .login-main .login-body .input-body .input{
-        height: 10px;
+    .home .login-container .btns .btns1 .button-container .signin.on .log .log-container .head>h2,
+    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container .head>h2{
+        font-size: 23px;
     }
-    .login-main .login-body .input-body .input::placeholder{
-        font-size: 12px;
+    .home .login-container .btns .btns1 .button-container .signin.on .log .log-container form .inputs .input-login,
+    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container form .input-div .input-reg  {
+        padding:10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 13px;
     }
-    .login-main .login-body .button .button-container .login-btn{
-        padding: 5px 20px;
-        font-size: 12px;
-    } 
+    .home .login-container .btns .btns1 .button-container .signin.on .log .log-container form .btn .btn1,
+    .home .login-container .btns .btns1 .button-container .signup.on .reg .reg-container form .btn .btn1{
+        padding:10px 50px;
+        margin: 5px;
+        font-size: 13px;
+    }
 }

@@ -1,28 +1,38 @@
-import React from 'react';
+import React, { useState } from 'react';
+import back from '../assets/unnamed.png';
+import back1 from '../assets/unnamed (1).png';
+import Registration from './Registration';
+import Signin from './Signin';
 
 export default function Login() {
+    const [signin, setSignin] = useState(false);
+    const [signup, setSignup] = useState(false);
+
     return (
-        <div className="login">
+        <div className="home login">
             <div className="login-container">
-                <div className="login-main">
-                    <div className="login-name">
-                        <div>Log In</div>
-                    </div>
-                    <div className="login-body">
-                        <div className="input-body">
-                            <input type="email" placeholder="Enter Email" className="input" />
-                            <input type="password" placeholder="*******" className="input" />
-                        </div>
-                        <div className="button">
-                            <div className="button-container">
-                                <a href="/#" className="login-btn">Log In</a>
+                <div className="btns">
+                    <div className="btns1">
+                        <div className="button-container" >
+                            <div className="button" onClick={() => setSignin(!signin)}>Sign In</div>
+                            <div className={signin ? "signin on" : "signin"} onClick={() => setSignin(!signin)}>
+                                <Signin />
                             </div>
-                            <div className="button-container">
-                                <a href="/#" className="login-btn">Sign Up</a>
+                        </div>
+                        <div className="button-container">
+                            <div  className="button" onClick={() => setSignup(!signup)}>Sign Up</div>
+                            <div className={signup ? "signup on" : "signup"} onClick={() => setSignup(!signup)}>
+                                <Registration />
                             </div>
                         </div>
                     </div>
                 </div>
+                <div className="unnamed">
+                    <img className="unnamed-img" src={back1} alt="background-img1" />
+                </div>
+            </div>
+            <div className="bac-img">
+                <img src={back} alt="bacground-img" className="back-img1" />
             </div>
         </div>
     );
