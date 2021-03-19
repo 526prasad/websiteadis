@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/websiteadis/static/css/main.f6d66b1f.chunk.css",
-    "main.js": "/websiteadis/static/js/main.ec9aa3b1.chunk.js",
-    "main.js.map": "/websiteadis/static/js/main.ec9aa3b1.chunk.js.map",
+    "main.js": "/websiteadis/static/js/main.4de10b5d.chunk.js",
+    "main.js.map": "/websiteadis/static/js/main.4de10b5d.chunk.js.map",
     "runtime-main.js": "/websiteadis/static/js/runtime-main.f2428873.js",
     "runtime-main.js.map": "/websiteadis/static/js/runtime-main.f2428873.js.map",
     "static/css/2.26bb3009.chunk.css": "/websiteadis/static/css/2.26bb3009.chunk.css",
@@ -32,6 +32,6 @@
     "static/css/2.26bb3009.chunk.css",
     "static/js/2.0c672b85.chunk.js",
     "static/css/main.f6d66b1f.chunk.css",
-    "static/js/main.ec9aa3b1.chunk.js"
+    "static/js/main.4de10b5d.chunk.js"
   ]
 }
