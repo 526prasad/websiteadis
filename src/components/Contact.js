@@ -42,22 +42,23 @@ export default function Contact() {
                                         <div className="c-icon"><i className="fa fa-map-marker fa-lg" aria-hidden="true"></i></div>
                                         <div className="c-desc">
                                             <h3>Address</h3>
-                                            <p>Hindwadi Belgaum</p>
-                                            <p>Karnataka - 590003</p>
+                                            <p>Jai Ganesh Plaza Congress Road</p>
+                                            <p>Tilkawadi, Belgaum </p>
+                                            <p>Karnataka, 590006</p>
                                         </div>
                                     </div>
                                     <div className="c-body">
                                         <div className="c-icon"><i className="fa fa-phone fa-lg" aria-hidden="true"></i></div>
                                         <div className="c-desc">
                                             <h3>Contact</h3>
-                                            <p>+91 9876543210</p>
+                                            <p>+91 8762688442</p>
                                         </div>
                                     </div>
                                     <div className="c-body">
                                         <div className="c-icon"><i className="fa fa-envelope-o fa-lg" aria-hidden="true"></i></div>
                                         <div className="c-desc">
                                             <h3>Email</h3>
-                                            <p>cowsoncloud@gmial.com</p>
+                                            <p>info@adis.co.in</p>
                                         </div>
                                     </div>
                                 </div>

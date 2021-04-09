@@ -15,12 +15,12 @@ export default function Login() {
                         <div className="btns1">
                             <div className="button-container" >
                                 <div className="div">
-                                    <a href="http://www.cowsoncloud.com/cowsoncloud/LOGIN" className="button button1" target="blank"> Sign In</a>
+                                    <a href="http://www.cowsoncloud.com/cowsoncloud/LOGIN" className="button button1" target="blank"><i class="fa fa-sign-in" aria-hidden="true"></i> Sign In</a>
                                 </div>
                             </div>
                             <div className="button-container">
                                 <div className="div">
-                                    <a href="http://www.cowsoncloud.com/cowsoncloud/signup.php" className="button button2" target="blank"> Sign Up</a>
+                                    <a href="http://www.cowsoncloud.com/cowsoncloud/signup.php" className="button button2" target="blank"><i class="fa fa-user-plus" aria-hidden="true"></i> Sign Up</a>
                                 </div>
                             </div>
                         </div>

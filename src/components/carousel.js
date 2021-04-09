@@ -1,7 +1,8 @@
 import React from 'react';
 import owl1 from '../assets/ddd.png';
-import owl2 from '../assets/pr.jpg';
-import owl3 from '../assets/team.jpg';
+import owl2 from '../assets/certificate.jpg';
+import owl3 from '../assets/pr.jpg';
+import owl4 from '../assets/team.jpg';
 //Owl Carousel Libraries and Module
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
@@ -35,16 +36,20 @@ export default function Carousel() {
         <div className="about-down-container">
             <div className="ab-head-name">Gallery</div>
             <OwlCarousel className="slider-items owl-carousel" {...option}>
+            <div className="item">
+                    <div className="img certi"><img src={owl2} alt="owl2"/></div>
+                    <div className="i-name"><p>Our Achievement</p></div>
+                </div>
                 <div className="item">
                     <div className="img"><img src={owl1} alt="owl1"/></div>
                     <div className="i-name"><p>Our Achievement</p></div>
                 </div>
                 <div className="item">
-                    <div className="img"><img src={owl2} alt="owl2"/></div>
+                    <div className="img"><img src={owl3} alt="owl2"/></div>
                     <div className="i-name"><p>Our Achievement</p></div>
                 </div>
                 <div className="item">
-                    <div className="img"><img src={owl3} alt="owl3"/></div>
+                    <div className="img"><img src={owl4} alt="owl3"/></div>
                     <div className="i-name"><p>Our Team</p></div>
                 </div>
             </OwlCarousel>

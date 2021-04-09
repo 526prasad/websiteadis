@@ -205,6 +205,11 @@
     .team-container .t-name>hr{
         margin-left: 28%;
     }
+    .team-container .team-photo .photo-container .image{
+        width: 80%;
+        margin-left: 10%;
+        height: 400px;
+      }
       /* contact */
       .contact-container .contact-body{
         margin-left: 9%;
@@ -220,7 +225,7 @@
         height: 60vh;
     }
     .navigation-container{
-        height: 54px;
+        height: 75px;
     }
     nav .logo2{
         display: block;
@@ -589,7 +594,14 @@
         width: 250px;
         margin-left: 9%;
     }
-
+    .team-container .team-photo .photo-container{
+        padding: 30px;
+    }
+    .team-container .team-photo .photo-container .image{
+        width: 80%;
+        margin-left: 10%;
+        height: 200px;
+      }
 }
 
 @media only screen and (min-width:280px) and (max-width: 340px){
@@ -598,10 +610,7 @@
         height: 60vh;
     }
     .navigation-container{
-        height: 54px;
-    }
-    .navigation-container{
-        height: 49px;
+        height: 75px;
     }
     nav .logo2{
         display: block;
@@ -909,6 +918,14 @@
         width: 250px;
         margin-left: 4%;
     }
+    .team-container .team-photo .photo-container{
+        padding: 30px;
+    }
+    .team-container .team-photo .photo-container .image{
+        width: 80%;
+        margin-left: 10%;
+        height: 200px;
+      }
     /* contact */
     .contact{
         height: 100vh;

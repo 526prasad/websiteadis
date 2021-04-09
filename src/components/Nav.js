@@ -13,6 +13,7 @@ import Team from './Team';
 import Contact from './Contact';
 import Login from './Login';
 import { TitleComponent } from './TitleComponent';
+import logo from '../assets/mainlogo.png'
 
 function Nav() {
     const [active, setActive] = useState(false);
@@ -54,11 +55,11 @@ function Nav() {
                 <div className="navigation-container">
                     <nav className={navbar ? "active" : ""}>
                         <div id="menuToggle" className="logo2" onClick={() => setActive(!active)}><i className="fa fa-bars"></i></div>
-                        <div className="logo1"><Link to="/">CowsOnCloud</Link></div>
+                        <div className="logo1"><Link to="/websiteadis"><img className="logo" src={logo} alt="desi" /></Link></div>
                         <div className={active ? "navigation open" : "navigation"}>
                             <ul onClick={() => setActive(!active)} className="navbar">
                                 <li>
-                                    <NavLink to="/" activeClassName="navbar__link--active" className="navbar__link" exact={true} >Home</NavLink>
+                                    <NavLink to="/websiteadis" activeClassName="navbar__link--active" className="navbar__link" exact={true} >Home</NavLink>
                                 </li>
                                 <li>
                                     <NavLink to="/about" activeClassName="navbar__link--active" className="navbar__link">About</NavLink>
@@ -96,7 +97,7 @@ function Nav() {
                     <Route path="/login" component={LoginComponent}>
                         <Login />
                     </Route>
-                    <Route path="/" exact={true}>
+                    <Route path="/websiteadis" exact={true}>
                         <Home />
                     </Route>
                 </Switch>

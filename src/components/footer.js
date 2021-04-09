@@ -10,20 +10,20 @@ export default function Footer() {
                         <div className="heading">
                             Our Mission
                         </div>
-                        <div className="brand-name">CowsOnCloud</div>
-                        <div className="brand-tag">Animals Digital Information System</div>
+                        <div className="brand-tag">Digital identity for all animals......<br></br><span>Ease of use, scalability and resilience of  technology infrastructure for masses.</span></div>
+                        {/* <div className="brand-tag">Animals Digital Information System</div> */}
                     </div>
                     <div className="div2">
                         <div className="heading">
                         Contact Details
                         </div>
                         <div className="details">
-                            <h4>Adis Technologies PVT</h4>
-                            <p>Hanuman nagar, Hindwadi</p>
-                            <p>Belagavi</p>
-                            <p>Karnataka</p>
-                            <p><a href="mailto:cowsoncloud@gmail.com">Email: cowsoncloud@gmail.com</a></p>
-                            <a href="tel:+91 876543210"> <i className="fa fa-phone" aria-hidden="true"></i> +91 876543210</a>
+                            <h4>Adis Technologies Pvt Ltd</h4>
+                            <p>Jai Ganesh Plaza Congress Road</p>
+                            <p>Tilkawadi, Belgaum </p>
+                            <p>Karnataka, 590006</p>
+                            <p><a href="mailto:info@adis.co.in" className="con-link"><i className="fa fa-envelope-o fo-icon" aria-hidden="true"></i>   info@adis.co.in</a></p>
+                            <a href="tel:+91 8762688442" className="con-link"><i className="fa fa-phone fo-icon" aria-hidden="true"></i> +91 8762-688-442</a>
                         </div>
                     </div>
                     <div className="div3">
@@ -42,8 +42,8 @@ export default function Footer() {
                     </div>
                     <div className="division2">
                         <div className="copyright">
-                            <h4>©2021 <a href="/">CowsOnCloud.com </a>| All Rights Reserved.</h4>
-                            <h3>Managed by Adis Technologies PVT | Belagavi</h3>
+                            <h4>©2021 <a href="/websiteadis">adis.co.in </a>| All Rights Reserved.</h4>
+                            <h3>Managed by Adis Technologies Pvt Ltd | Belagavi</h3>
                         </div>
                     </div>
                 </div>

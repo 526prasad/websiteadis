@@ -3,6 +3,7 @@ import sujit from '../assets/sujit.jpg';
 import prasad from '../assets/prasad.jpg';
 import md from '../assets/md.jpg';
 import { TitleComponent } from './TitleComponent';
+import team from '../assets/team.jpg';
 
 function Team() {
     return (
@@ -13,8 +14,13 @@ function Team() {
                     <div className="t-name">
                         <div>
                             Our Amazing Team
-                    </div>
+                        </div>
                         <hr />
+                    </div>
+                    <div className="team-photo">
+                        <div className="photo-container">
+                            <img className="image" src={team} alt="team"/>
+                        </div>
                     </div>
                     <div className="team-body">
                         <div className="card card-1">
@@ -22,8 +28,8 @@ function Team() {
                                 <img src={sujit} alt="sujit"></img>
                             </div>
                             <div className="desc">
-                                <div className="f-name">Sujit H</div>
-                                <div className="founder">Founder</div>
+                                <div className="f-name">Sujit Hukkerikar</div>
+                                <div className="founder">Director</div>
                                 <div className="social-media">
                                     <div>
                                         <a href="/" rel="noopener noreferrer" target="_blank"> <i className="fa fa-facebook-official" aria-hidden="true"></i></a>
@@ -43,7 +49,7 @@ function Team() {
                             </div>
                             <div className="desc">
                                 <div className="f-name">Prasad Desai</div>
-                                <div className="founder">Founder</div>
+                                <div className="founder">Director</div>
                                 <div className="social-media">
                                     <div>
                                         <a href="/" rel="noopener noreferrer" target="_blank"> <i className="fa fa-facebook-official" aria-hidden="true"></i></a>
@@ -63,7 +69,7 @@ function Team() {
                             </div>
                             <div className="desc">
                                 <div className="f-name">Madhav Hebbar</div>
-                                <div className="founder">Founder</div>
+                                <div className="founder">Associate Director</div>
                                 <div className="social-media">
                                     <div>
                                         <a href="/" rel="noopener noreferrer" target="_blank"> <i className="fa fa-facebook-official" aria-hidden="true"></i></a>

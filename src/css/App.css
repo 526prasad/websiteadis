@@ -14,7 +14,7 @@ nav .logo2{
 }
 /* nav */
 .navigation-container{
-  height: 64px;
+  height: 75px;
   position: relative;
   z-index: 1;
   background-color:white ;
@@ -36,15 +36,13 @@ nav.active{
 }
 nav .logo1{
   width: 35%;
-  padding: 5px 5px 5px 50px;
+  padding: 5px 5px 5px 100px;
 }
-nav .logo1>a{
-  text-decoration: none;
-  font-size: 40px;
-  font-weight: 500;
-  color: #f0a500;
+nav .logo1 .logo{
+ height: 65px;
+ width:65px;
 }
-nav .logo1>a:hover{
+nav .logo1>.logo:hover{
   color: #cf7500;
 }
 nav .navigation{
@@ -115,17 +113,18 @@ nav .navigation ul li a:hover{
   padding: 5px;
   color: rgb(80, 80, 80);
 }
-.f-container .part1 .div1 .brand-name{
+/* .f-container .part1 .div1 .brand-name{
   padding: 5px;
   color: #cf7500;
   font-size: 25px;
   font-weight: 500;
-}
+} */
 .f-container .part1 .div1 .brand-tag{
   padding:5px ;
-  font-size: 15px;
+  letter-spacing: 0.3px;
+  font-size: 14px;
   font-weight: 500; 
-  color: rgb(109, 109, 109);
+  color:  rgb(109, 109, 109);
 }
 .f-container .part1 .div2 .details{
   padding: 5px;
@@ -137,6 +136,10 @@ nav .navigation ul li a:hover{
   padding-top: 5px;
   font-size: 14px;
   color: rgb(109, 109, 109);
+}
+.f-container .part1 .div2 .details .con-link{
+  color: #cf7500;
+  font-size: 14px;
 }
 .div3{
   width: 50%;
@@ -262,8 +265,9 @@ nav .navigation ul li a:hover{
 .f-container .part2 .division2 .copyright h4>a{
   color: white;
 }
-.fa-phone{
+.fo-icon{
   color:#cf7500;
+  padding-right: 5px;
 }
 .f-container .part1 .div2 .details a{
   color: gray;
@@ -349,7 +353,7 @@ nav .navigation ul li a:hover{
 } 
 .about{
   position: relative;
-  overflow: scroll;
+  /* overflow: scroll; */
   width: 100%;
   z-index: 1;
 }
@@ -381,7 +385,8 @@ nav .navigation ul li a:hover{
   padding: 40px 0 40px 0;
   z-index: 1;
 }
-.ab-para p{
+.ab-para .p{
+  text-indent: 50px;
   letter-spacing: 0.5px;
   line-height: 25px;
   font-size: 16px;
@@ -390,6 +395,7 @@ nav .navigation ul li a:hover{
   padding-top: 10px;
   color: #eb9a43;
   font-size: 17px;
+  cursor: pointer;
 }
 .about-container.added{
   /* z-index: 2; */
@@ -487,14 +493,20 @@ nav .navigation ul li a:hover{
   font-weight: 500;
 }
 .center{
-  height: 330px;
+  height: 350px;
   background-color: white;
   box-shadow: 5px 5px 10px gainsboro;
   border-radius: 5px;
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 .about-down-container .owl-carousel .owl-stage-outer .owl-stage .center .item>.img img{
   transform: scale(1.1,1.1);
+}
+.about-down-container .owl-carousel .owl-stage-outer .owl-stage .center .item>.certi img{
+  margin-top:0px;
+  padding-top: 0px;
+  top:0;
+  height:280px;
 }
 .about-down-container .owl-carousel .owl-stage-outer .owl-stage .center .item .i-name p{
   padding-top: 10px;
@@ -569,16 +581,21 @@ nav .navigation ul li a:hover{
   text-align: center;
   box-shadow: 1px 1px 10px rgb(248, 218, 180);
 }
-.services-container .ser-body .ser-card1 .ser-icon>img{
+.services-container .ser-body .ser-card1 .ser-icon a>.img,
+.services-container .ser-body .ser-card2 .ser-icon a>.img{
   width: 170px;
   height: 170px;
   padding: 15px;
   border-radius:50%;
   transition: 0.3s;
 }
-.services-container .ser-body .ser-card1 .ser-icon>img:hover,
-.services-container .ser-body .ser-card1 .ser-icon>.fa:hover,
-.services-container .ser-body .ser-card2 .ser-icon>.fa:hover{
+.services-container .ser-body .ser-card2 .ser-desc a>.img{
+  width: 200px;
+  height: 100px;
+  transition: 0.3s;
+}
+.services-container .ser-body .ser-card1 .ser-icon a>.img:hover,
+.services-container .ser-body .ser-card2 .ser-icon a>.img:hover{
   transform: scale(1.2);
 }
 .services-container .ser-body .ser-card2 {
@@ -588,35 +605,41 @@ nav .navigation ul li a:hover{
   margin: 20px;
   border-radius: 100px;
 }
-.services-container .ser-body .ser-card1 .ser-desc,
-.services-container .ser-body .ser-card2 .ser-desc{
+.services-container .ser-body .ser-card1 .ser-desc{
   position: relative;
   width: 60%;
   color: black;
   text-align: center;
   margin-top: 70px;
 }
-.services-container .ser-body .ser-card1 .ser-desc h4,
-.services-container .ser-body .ser-card2 .ser-desc h4{
+.services-container .ser-body .ser-card2 .ser-desc{
+  position: relative;
+  width: 60%;
+  text-align: center;
+  margin-top: 30px;
+}
+.services-container .ser-body .ser-card1 .ser-desc a h4{
   font-size: 25px;
   font-weight: 700; 
+  color: #cf7500;
   padding: 5px;
 }
-.services-container .ser-body .ser-card1 .ser-desc p,
-.services-container .ser-body .ser-card2 .ser-desc p{
+.services-container .ser-body .ser-card1 .ser-desc  p,
+.services-container .ser-body .ser-card2 .ser-desc  p{
   font-size: 15px;
   font-weight: 500;
   padding: 5px;
-  color: #cf7500;
+  color: #d38520;
 }
-.services-container .ser-body .ser-card1 .ser-icon>.fa,
+/* .services-container .ser-body .ser-card1 .ser-icon>.fa,
 .services-container .ser-body .ser-card2 .ser-icon>.fa{
   text-align: center;
   font-size:130px;
   padding: 33px;
   transition: 0.3s;
   color: #f0a500;
-}.services-container .ser-body .ser-card2 .ser-icon,
+} */
+.services-container .ser-body .ser-card2 .ser-icon,
 .services-container .ser-body .ser-card1 .ser-desc{
   animation-name: description;
   animation-duration: 1s;
@@ -665,12 +688,28 @@ nav .navigation ul li a:hover{
 .team-container:hover .t-name>hr{
   transform: scaleX(1);  
 }
+.team-container .team-photo{
+  width: 100%;
+  padding-bottom: 10px;
+}
+.team-container .team-photo .photo-container{
+  padding: 70px;
+  background-color: #fff6ca;
+  background-image: linear-gradient(45deg, #fff6ca 30%, #fde7c6 84%);
+}
+.team-container .team-photo .photo-container .image{
+  width: 60%;
+  margin-left: 20%;
+  height: 500px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgb(243, 222, 103);
+}
 .team-container .team-body{
   margin: 20px;
 }
 .team-container .team-body .card{
-  margin-left: 10%;
-  width: 80%;
+  margin-left: 20%;
+  width: 60%;
   background-color: white;
   z-index: 1;
   margin-bottom: 20px;
@@ -739,7 +778,7 @@ nav .navigation ul li a:hover{
 .team-container .team-body .card .desc .social-media{
   display: flex;
   width: 40%;
-  margin-left: 37%;
+  margin-left: 32%;
 } 
 .team-container .team-body .card .desc .social-media>div{
   flex-flow: row;
