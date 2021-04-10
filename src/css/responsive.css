@@ -3,11 +3,11 @@
         width: 100%;
         height: 50vh;
     }
+    .navigation-container{
+        height: 85px;
+    }
     nav .logo1{
         padding: 10px 10px 10px 30px;
-    }
-    nav .logo1>a{
-        font-size: 35px;
     }
     nav .navigation ul li a{
         padding:5px;
@@ -157,50 +157,64 @@
         width: 150px;
         height: 150px;
     }
-    .services-container .ser-body .ser-card1 .ser-icon>img{
+    .services-container .ser-body .ser-card1 .ser-icon a>.img,
+    .services-container .ser-body .ser-card2 .ser-icon a>.img{
         width: 120px;
         height: 120px;
     }
-    .services-container .ser-body .ser-card1 .ser-icon>.fa,
-    .services-container .ser-body .ser-card2 .ser-icon>.fa{
-        font-size:100px;
-        padding: 25px;
-    }
-    .services-container .ser-body .ser-card1 .ser-desc h4,
-    .services-container .ser-body .ser-card2 .ser-desc h4{
+    .services-container .ser-body .ser-card1 .ser-desc a h4,
+    .services-container .ser-body .ser-card2 .ser-desc a h4{
         font-size: 20px;
     }
     .services-container .ser-body .ser-card1 .ser-desc p,
     .services-container .ser-body .ser-card2 .ser-desc p{
         font-size: 10px;
     }
-    .services-container .ser-body .ser-card1 .ser-desc,
-    .services-container .ser-body .ser-card2 .ser-desc{
+    .services-container .ser-body .ser-card1 .ser-desc{
         margin-top: 40px;
     }
     .services-container .ser-head .ser-name hr{
         margin-left:33% ;
     }
+    .services-container .ser-body .ser-card2 .ser-desc a>.img{
+        width: 200px;
+        height: 80px;
+        transition: 0.3s;
+    }
+    .services-container .ser-body .ser-card2 .ser-desc{
+        margin-top: 30px;
+    }
     /* team */
-    .team-container .team-body .card .card-img{
-        width: 120px;
-        height: 200px;
+    .team-container .team-body .card-1 .card-img{
+        height: 60px;
+        padding-top:25px ;
       }
-      .team-container .team-body .card .card-img>img{
-        width: 150px;
+    .team-container .team-body .card-1 .card-img>img{
+        margin-left: 10px;
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+    }
+    .team-container .team-body .card .desc{
         height: 150px;
-        margin-left: 25px;
-        margin-top: 25px;
+        padding: 10px 10px 10px 10px ;
       }
-      .team-container .team-body .card-2 .card-img>img{
-          margin-left: -50px;
-      }
-      .team-container .team-body .card .desc .f-name{
-        padding: 15px 5px 5px 5px;
+      .team-container .team-body .card .desc .desc1 .f-name{
         font-size: 20px;
+        padding: 35px 0px 0px 0px;
       }
-      .team-container .team-body .card .desc .social-media{
-        margin-left: 26%;
+      .team-container .team-body .card .desc .desc1 .founder{
+        font-size: 15px;
+        padding: 5px 0 0 0 ;
+      }
+      .team-container .team-body .card .desc .social-media>div{
+        height: 35px;
+        width: 35px;
+        margin-left: 10px;
+      }
+      .team-container .team-body .card .desc .social-media div a>.fa{
+        font-size: 15px;
+        padding: 9px;
       }
     .team-container .t-name>hr{
         margin-left: 28%;
@@ -225,7 +239,7 @@
         height: 60vh;
     }
     .navigation-container{
-        height: 75px;
+        height: 80px;
     }
     nav .logo2{
         display: block;
@@ -235,10 +249,10 @@
         margin-top: 10px;
         margin-left: 5px;
         padding:10px;
-        color:#cf7500;
+        color:#2190e6;
     }
     nav .logo2 .fa:hover{
-        color: #f0a500;
+        color: #2190e6;
     }
     nav .logo1{
         width: 90%;
@@ -255,7 +269,7 @@
         display: block;
         background-color: white;
         position: fixed;
-        margin-top: 52px;
+        margin-top: 80px;
         padding: 0;
         width: 100%;
     }  
@@ -277,7 +291,7 @@
         width: 100%;
         margin-left: 20px;
         padding: 0;
-        color: #f0a500;
+        color: #2999e4;
     }
     /* footer */
     .f-container .part1{
@@ -515,21 +529,17 @@
     }
     .services-container .ser-body .ser-card1 .ser-icon,
     .services-container .ser-body .ser-card2 .ser-icon{
-        width: 90px;
-        height: 90px;
+        width: 75px;
+        height: 75px;
     }
-    .services-container .ser-body .ser-card1 .ser-icon>img{
-        width: 70px;
-        height: 70px;
-        padding:10px
+    .services-container .ser-body .ser-card1 .ser-icon a>.img,
+    .services-container .ser-body .ser-card2 .ser-icon a>.img{
+        width: 60px;
+        height: 60px;
+        padding:7px
     }
-    .services-container .ser-body .ser-card1 .ser-icon>.fa,
-    .services-container .ser-body .ser-card2 .ser-icon>.fa{
-        font-size:70px;
-        padding: 10px;
-    }
-    .services-container .ser-body .ser-card1 .ser-desc h4,
-    .services-container .ser-body .ser-card2 .ser-desc h4{
+    .services-container .ser-body .ser-card1 .ser-desc a h4,
+    .services-container .ser-body .ser-card2 .ser-desc a h4{
         font-size: 15px;
     }
     .services-container .ser-body .ser-card1 .ser-desc p,
@@ -543,6 +553,10 @@
     .services-container .ser-head .ser-name hr{
         margin-left:10% ;
     }
+    .services-container .ser-body .ser-card2 .ser-desc a>.img{
+        width: 100px;
+        height: 50px;
+      }
     /* team */
     .team-container{
        padding: 5px;
@@ -550,46 +564,10 @@
     .team-container .t-name>div{
         font-size: 25px;
       }
-    .team-container .team-body{
-        margin: 0;
-    }
-    .team-container .team-body .card{
-        width: 90%;
-        margin-left: 5%;
-    }
-    .team-container .team-body .card-1{
-        display: flex;
+      .team-container .team-body{
         flex-flow: column nowrap;
-    }
-    .team-container .team-body .card-2{
-        display: flex;
-        flex-flow:column nowrap;
-    }
-    .team-container .team-body .card .card-img{
-        width: 60%;
-        height: 200px;
-        margin-top: 20px;
-        margin-left:20%;
-    }
-    .team-container .team-body .card .card-img>img{
-        width: 80%;
-        height: 150px;
-        margin-left: 10%;
-        margin-top: 25px;
-    }
-    .team-container .team-body .card .desc{
-        padding: 0;
-        width: 100%;
-    }
-    .team-container .team-body .card .desc .f-name{
-        font-size: 22px;
-        padding: 25px 5px 5px 5px;
-    }
-    .team-container .team-body .card .desc .social-media{
-        width: 60%;
-        margin-left: 20%;
-        margin-bottom: 20px;
-    } 
+      }
+    
     .team-container .t-name>hr{
         width: 250px;
         margin-left: 9%;
@@ -620,10 +598,10 @@
         margin-top: 8px;
         margin-left: 5px;
         padding:5px 10px;
-        color:#cf7500;
+        color:#2190e6;
     }
     nav .logo2 .fa:hover{
-        color: #f0a500;
+        color: #2190e6;
     }
     nav .logo1{
         width: 90%;
@@ -639,7 +617,7 @@
         display: block;
         background-color: white;
         position: fixed;
-        margin-top: 46px;
+        margin-top: 75px;
         padding: 0;
         width: 100%;
     }  
@@ -655,7 +633,7 @@
         width: 100%;
         margin-left: 20px;
         padding: 0;
-        color: #f0a500;
+        color: #2190e6;
         font-size: 13px;
     }
  
@@ -817,8 +795,14 @@
         padding-top: 15px;
       }
     .about-down-container .owl-carousel .owl-stage-outer .owl-stage .owl-item .item .img img{
-        height: 180px;
+        height: 150px;
     }
+    .about-down-container .owl-carousel .owl-stage-outer .owl-stage .center .item>.certi img{
+        height:165px;
+      }
+    .about-down-container .owl-carousel .owl-stage-outer .owl-stage .center .item .certi>p{
+        padding-top: 5px;
+      }
     .center{
         height: 250px;
         padding-top: 0px;
@@ -841,18 +825,14 @@
         width: 90px;
         height: 90px;
     }
-    .services-container .ser-body .ser-card1 .ser-icon>img{
+    .services-container .ser-body .ser-card1 .ser-icon a>.img,
+    .services-container .ser-body .ser-card2 .ser-icon a>.img{
         width: 70px;
         height: 70px;
         padding:10px
     }
-    .services-container .ser-body .ser-card1 .ser-icon>.fa,
-    .services-container .ser-body .ser-card2 .ser-icon>.fa{
-        font-size:70px;
-        padding: 10px;
-    }
-    .services-container .ser-body .ser-card1 .ser-desc h4,
-    .services-container .ser-body .ser-card2 .ser-desc h4{
+    .services-container .ser-body .ser-card1 .ser-desc a h4,
+    .services-container .ser-body .ser-card2 .ser-desc a h4{
         font-size: 15px;
     }
     .services-container .ser-body .ser-card1 .ser-desc p,
@@ -867,6 +847,11 @@
         width: 250px;
         margin-left:5% ;
     }
+    .services-container .ser-body .ser-card2 .ser-desc a>.img{
+        width: 100px;
+        height: 50px;
+        transition: 0.3s;
+      }
     /* team */
     .team-container{
         padding: 5px;
@@ -874,46 +859,24 @@
      .team-container .t-name>div{
          font-size: 25px;
        }
-     .team-container .team-body{
-         margin: 0;
-     }
-     .team-container .team-body .card{
-         width: 90%;
-         margin-left: 5%;
-     }
-     .team-container .team-body .card-1{
-         display: flex;
-         flex-flow: column nowrap;
-     }
-     .team-container .team-body .card-2{
-         display: flex;
-         flex-flow:column nowrap;
-     }
-     .team-container .team-body .card .card-img{
-         width: 60%;
-         height: 200px;
-         margin-top: 20px;
-         margin-left:20%;
-     }
-     .team-container .team-body .card .card-img>img{
-         width: 80%;
-         height: 150px;
-         margin-left: 10%;
-         margin-top: 25px;
-     }
-     .team-container .team-body .card .desc{
-         padding: 0;
-         width: 100%;
-     }
-     .team-container .team-body .card .desc .f-name{
-         font-size: 22px;
-         padding: 25px 5px 5px 5px;
-     }
-     .team-container .team-body .card .desc .social-media{
-         width: 60%;
-         margin-left: 20%;
-         margin-bottom: 20px;
-     } 
+       .team-container .team-body{
+        flex-flow: column nowrap;
+      }
+      .team-container .team-body .card-1 .card-img{
+        height: 60px;
+        padding-top:30px ;
+      }
+      .team-container .team-body .card-1 .card-img>img{
+        margin-left: 10px;
+        height: 120px;
+        width: 120px;
+    }
+    .team-container .team-body .card .desc .social-media>div{
+        margin-left: 12px;
+      }
+      .team-container .team-body .card .desc .desc1 .f-name{
+        font-size: 20px;
+      }
      .team-container .t-name>hr{
         width: 250px;
         margin-left: 4%;
