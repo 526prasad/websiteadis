@@ -609,14 +609,14 @@ nav .navigation ul li a:hover{
 }
 .services-container .ser-body .ser-card1 .ser-desc{
   position: relative;
-  width: 60%;
+  width: 100%;
   color: black;
   text-align: center;
   margin-top: 65px;
 }
 .services-container .ser-body .ser-card2 .ser-desc{
   position: relative;
-  width: 60%;
+  width: 100%;
   text-align: center;
   margin-top: 30px;
 }

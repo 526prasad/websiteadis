@@ -239,12 +239,16 @@
         height: 60vh;
     }
     .navigation-container{
-        height: 80px;
+        height: 85px;
     }
     nav .logo2{
         display: block;
         width: 10%;
     }
+    nav .logo1 .logo{
+        height: 60px;
+        width:60px;
+       }
     nav .logo2 .fa{
         margin-top: 10px;
         margin-left: 5px;
@@ -269,7 +273,7 @@
         display: block;
         background-color: white;
         position: fixed;
-        margin-top: 80px;
+        margin-top: 85px;
         padding: 0;
         width: 100%;
     }  
@@ -588,12 +592,16 @@
         height: 60vh;
     }
     .navigation-container{
-        height: 75px;
+        height: 80px;
     }
     nav .logo2{
         display: block;
         width: 10%;
     }
+    nav .logo1 .logo{
+        height: 60px;
+        width:60px;
+       }
     nav .logo2 .fa{
         margin-top: 8px;
         margin-left: 5px;
@@ -617,7 +625,7 @@
         display: block;
         background-color: white;
         position: fixed;
-        margin-top: 75px;
+        margin-top: 80px;
         padding: 0;
         width: 100%;
     }  
