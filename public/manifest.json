@@ -3,18 +3,18 @@
   "name": "Cows On Cloud App",
   "icons": [
     {
-      "src": "mainlogo.png",
+      "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/jpg"
+      "type": "image/x-icon"
     },
     {
-      "src": "mainlogo.png",
-      "type": "image/jpg",
+      "src": "favicon.ico",
+      "type": "image/x-icon",
       "sizes": "192x192"
     },
     {
-      "src": "mainlogo.png",
-      "type": "image/jpg",
+      "src": "favicon.ico",
+      "type": "image/x-icon",
       "sizes": "512x512"
     }
   ],

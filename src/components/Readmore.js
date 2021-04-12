@@ -12,7 +12,10 @@ function Readmore() {
     return (
         <div className={readMore ? "about-container added" : "about-container"} onClick={() => { setReadMore(!readMore) }}>
             <div className="ab">
-                <div className="ab-name"><h3>About</h3><hr className="hr1"/></div>
+                <div className="ab-name"><h3>About</h3></div>
+                <div className="hr">
+                    <hr/>
+                </div>
                 <div className="ab-para">
                     <p className="para1 p">Adis Technologies Pvt Ltd is an agri-tech company that combines extension and technology to provide service support to the farmers by managing their animal records like  Pedigree records, health records and providing breeding assistance to improve their cattle breeds. The farmers and their cattle issues are addressed in a scientific way timely.</p>
                     {readMore && extraContent}

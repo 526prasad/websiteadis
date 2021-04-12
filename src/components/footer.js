@@ -23,7 +23,7 @@ export default function Footer() {
                             <p>Tilkawadi, Belgaum </p>
                             <p>Karnataka, 590006</p>
                             <p><a href="mailto:info@adis.co.in" className="con-link"><i className="fa fa-envelope-o fo-icon" aria-hidden="true"></i>   info@adis.co.in</a></p>
-                            <a href="tel:+91 8762688442" className="con-link"><i className="fa fa-phone fo-icon" aria-hidden="true"></i> +91 8762-688-442</a>
+                            <a href="tel:+91 8762688442" className="con-link"><i className="fa fa-phone fo-icon" aria-hidden="true"></i> +91-876-268-8442</a>
                         </div>
                     </div>
                     <div className="div3">

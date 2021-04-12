@@ -368,15 +368,18 @@ nav .navigation ul li a:hover{
   font-size: 30px;
   color: rgb(38, 38, 38);
 }
-.about-container .ab .ab-name .hr1{
-  margin-top: 10px;
+.about-container .ab .hr{
+  width: 10%;
+}
+.about-container .ab .hr hr{
+  width: 100%;
   border: 1px solid #00AFEF;
-  width: 90px;
   transition: width 1s;
 }
-.about-container:hover .ab .ab-name .hr1{
+.about-container:hover .ab .hr hr{
   width: 130px;
 }
+
 .ab-para{
   font-family:'Times New Roman', Times, serif;
   position: relative;
@@ -419,13 +422,14 @@ nav .navigation ul li a:hover{
 .about-container.added .ab .ab-name{
   text-align: center;
 }
-.added .ab .ab-name .hr1{
-  text-align: center;
-  margin-left:42%;
+.added .ab .hr{
+  margin-left:42% ;
+}
+.added .ab .hr>hr{
   transform: scaleX(0);  
   transition: transform 1s ease-in-out;
 }
-.added .ab:hover .ab-name .hr1{
+.added .ab:hover .hr>hr{
   transform: scaleX(1);
 }
 .added .ab .ab-para{
@@ -531,14 +535,17 @@ nav .navigation ul li a:hover{
 .services-container .ser-head .ser-name{
   padding:5px ;
 }
-.services-container .ser-head .ser-name hr{
+.services-container .ser-head .hr{
+  width: 30%;
+  margin-left: 35%;
+}
+.services-container .ser-head .hr>hr{
+  width: 100%;
   border: 1px solid #00AFEF;
-  width: 260px;
-  margin-left:40%;
   transform: scaleX(0);  
   transition: transform 1s ease-in-out;
 }
-.services-container:hover .ser-head .ser-name hr{
+.services-container:hover .ser-head .hr>hr{
   transform: scaleX(1);  
 }
 .services-container .ser-head .ser-par>p{
@@ -552,9 +559,9 @@ nav .navigation ul li a:hover{
   padding-bottom: 5px;
 }
 .services-container .ser-body{
-  width: 75%;
+  width: 70%;
   margin-top: 10px;
-  margin-left: 12.5%;
+  margin-left: 15%;
 }
 .services-container .ser-body .ser-card1,
 .services-container .ser-body .ser-card2{
@@ -563,27 +570,38 @@ nav .navigation ul li a:hover{
   transition: 0.5s ;
 }
 .services-container .ser-body .ser-card1{
-  display: flex;
-  flex-flow: row;
   padding: 10px;
   margin: 20px;
   border-radius: 100px;
 }
-.services-container .ser-body .ser-card1:hover,
-.services-container .ser-body .ser-card2:hover{
-  border-bottom: 5px solid #04A5E7;
+.services-container .ser-body .ser-card2{
+  padding: 10px;
+  margin: 20px;
+  border-radius: 100px;
 }
-.services-container .ser-body .ser-card1 .ser-icon,
-.services-container .ser-body .ser-card2 .ser-icon{
-  position: relative;
+.services-container .ser-body .ser-card1 .ser-icon{
+  float: left;
   background-color: rgb(253, 254, 255);
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  text-align: center;
   box-shadow: 1px 1px 10px rgb(203, 230, 250);
 }
-.services-container .ser-body .ser-card1 .ser-icon a>.img,
+.services-container .ser-body .ser-card2 .ser-icon{
+  float: right;
+  background-color: rgb(253, 254, 255);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px rgb(203, 230, 250);
+}
+.services-container .ser-body .ser-card1 .ser-icon a>.img{
+  width: 170px;
+  height: 170px;
+  padding: 15px;
+  border-radius:50%;
+  transition: 0.3s;
+}
 .services-container .ser-body .ser-card2 .ser-icon a>.img{
   width: 170px;
   height: 170px;
@@ -591,47 +609,46 @@ nav .navigation ul li a:hover{
   border-radius:50%;
   transition: 0.3s;
 }
-.services-container .ser-body .ser-card2 .ser-desc a>.img{
-  width: 200px;
-  height: 100px;
-  transition: 0.3s;
-}
-.services-container .ser-body .ser-card1 .ser-icon a>.img:hover,
-.services-container .ser-body .ser-card2 .ser-icon a>.img:hover{
-  transform: scale(1.2);
-}
-.services-container .ser-body .ser-card2 {
-  padding: 10px;
-  display: flex;
-  flex-flow: row-reverse nowrap;
-  margin: 20px;
-  border-radius: 100px;
-}
 .services-container .ser-body .ser-card1 .ser-desc{
   position: relative;
+  height: 135px;
   width: 100%;
   color: black;
-  text-align: center;
-  margin-top: 65px;
+  padding-top: 65px;
 }
 .services-container .ser-body .ser-card2 .ser-desc{
   position: relative;
+  height: 135px;
   width: 100%;
+  color: black;
+  padding-top: 65px;
   text-align: center;
-  margin-top: 30px;
 }
 .services-container .ser-body .ser-card1 .ser-desc a h4{
+  position: absolute;
+  width: 100%;
+  text-align: center;
   font-size: 28px;
   font-weight: 700; 
   color: #0D96DA;
   padding: 5px;
+  justify-content: space-between;
 }
-.services-container .ser-body .ser-card1 .ser-desc  p,
-.services-container .ser-body .ser-card2 .ser-desc  p{
+.services-container .ser-body .ser-card1 .ser-desc  a p{
+  position: absolute;
+  width: 100%;
+  text-align: center;
   font-size: 15px;
   font-weight: 500;
-  padding: 5px;
+  padding:  45px 5px 5px 5px;
   color: #0D96DA;
+  justify-content: space-between;
+}
+.services-container .ser-body .ser-card2 .ser-desc a>.img{
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  transition: 0.3s;
 }
 .services-container .ser-body .ser-card2 .ser-icon,
 .services-container .ser-body .ser-card1 .ser-desc{
@@ -639,7 +656,7 @@ nav .navigation ul li a:hover{
   animation-duration: 1s;
 }
 @keyframes description{
-  from  { left:400px;}
+  from  { left:500px;}
   to  {left:0;}
 }
 .services-container .ser-body .ser-card1 .ser-icon,
@@ -648,9 +665,10 @@ nav .navigation ul li a:hover{
   animation-duration: 1s;
 }
 @keyframes example {
-  from  { right:400px;}
+  from  { right:500px;}
   to  {right:0;}
 }
+
 /* team */
 .team{
   overflow: hidden;
@@ -672,16 +690,18 @@ nav .navigation ul li a:hover{
   font-weight: 700;
   color: black;
 }
-.team-container .t-name>hr{
+.team-container .t-name .hr{
+  width: 30%;
+  margin-left: 35%;
+}
+.team-container .t-name .hr>hr{
   border: 1px solid #00AFEF;
-  width: 300px;
-  margin-left:38%;
   transform: scaleX(0);  
   transition: transform 1s ease-in-out;
 }
-.team-container:hover .t-name>hr{
+.team-container:hover .t-name .hr>hr{
   transform: scaleX(1);  
-}
+} 
 .team-container .team-photo{
   width: 100%;
   padding-bottom: 10px;

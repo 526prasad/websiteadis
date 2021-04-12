@@ -19,7 +19,9 @@ class Services extends React.Component {
                         <div className="ser-head">
                             <div className="ser-name">
                                 <h3>Our Services</h3>
-                                <hr />
+                            </div>
+                            <div className="hr">
+                                <hr/>
                             </div>
                             <div className="ser-par">
                                 <p>Get Started!!!</p>
@@ -31,8 +33,10 @@ class Services extends React.Component {
                                     <a href="#adis"><img className="img" src={cowMouth} alt="recognization" /></a>
                                 </div>
                                 <div className="ser-desc">
-                                    <a href="/services"><h4>ADIS</h4></a>
-                                    <p>Animals Digital Information System</p>
+                                    <a href="/services">
+                                        <h4>ADIS</h4>
+                                        <p>Animals Digital Information System</p>
+                                    </a>
                                 </div>
                             </div>
                             <div className="ser-card2">
@@ -50,7 +54,7 @@ class Services extends React.Component {
                                     <a href="https://www.youtube.com/c/utjitdesicows/videos" rel="noreferrer" target="_blank"><img className="img" src={logo2} alt="desi" /></a>
                                 </div>
                                 <div className="ser-desc">
-                                    <a href="https://www.youtube.com/c/utjitdesicows/videos" rel="noreferrer" target="_blank"><h4>Our YouTube Channel</h4></a>
+                                    <a href="https://www.youtube.com/c/utjitdesicows/videos" rel="noreferrer" target="_blank"><h4>Our YouTube <br></br>Channel</h4></a>
                                     <p></p>
                                 </div>
                             </div>

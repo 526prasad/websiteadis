@@ -97,8 +97,12 @@
         width: 40%;
     }
     /* about */
-    .added .ab .ab-name .hr1{
-        margin-left: 36%;
+    .about-container .ab .hr{
+        width: 25%;
+    }
+    .added .ab .hr{
+        width: 20%;
+        margin-left: 35%;
     }
     .pngimgs .png-img .png-img1{
        width: 70%;
@@ -152,39 +156,40 @@
         padding-top: 20px!important;
       }
       /* services */
-    .services-container .ser-body .ser-card1 .ser-icon,
-    .services-container .ser-body .ser-card2 .ser-icon{
-        width: 150px;
-        height: 150px;
-    }
-    .services-container .ser-body .ser-card1 .ser-icon a>.img,
-    .services-container .ser-body .ser-card2 .ser-icon a>.img{
+      .services-container .ser-body .ser-card1 .ser-icon,
+      .services-container .ser-body .ser-card2 .ser-icon{
         width: 120px;
         height: 120px;
+      }
+      .services-container .ser-body .ser-card1 .ser-icon a>.img,
+    .services-container .ser-body .ser-card2 .ser-icon a>.img{
+        width: 90px;
+        height: 90px;
     }
-    .services-container .ser-body .ser-card1 .ser-desc a h4,
-    .services-container .ser-body .ser-card2 .ser-desc a h4{
-        font-size: 20px;
-    }
-    .services-container .ser-body .ser-card1 .ser-desc p,
-    .services-container .ser-body .ser-card2 .ser-desc p{
-        font-size: 10px;
-    }
-    .services-container .ser-body .ser-card1 .ser-desc{
-        margin-top: 40px;
-    }
-    .services-container .ser-head .ser-name hr{
-        margin-left:33% ;
-    }
-    .services-container .ser-body .ser-card2 .ser-desc a>.img{
-        width: 200px;
-        height: 80px;
-        transition: 0.3s;
-    }
+    .services-container .ser-body .ser-card1 .ser-desc,
     .services-container .ser-body .ser-card2 .ser-desc{
-        margin-top: 30px;
-    }
+        height: 90px;
+        width: 100%;
+        padding-top: 30px;
+      }
+      .services-container .ser-body .ser-card1 .ser-desc a h4{
+        font-size: 22px;
+      }
+      .services-container .ser-body .ser-card1 .ser-desc  a p{
+        font-size: 12px;
+      }
+      .services-container .ser-body .ser-card2 .ser-desc a>.img{
+        position: absolute;
+        width: 120px;
+        height: 60px;
+        transition: 0.3s;
+      }
+
     /* team */
+    .team-container .t-name .hr{
+        width: 50%;
+        margin-left: 25%;
+      }
     .team-container .team-body .card-1 .card-img{
         height: 60px;
         padding-top:25px ;
@@ -423,8 +428,8 @@
         text-align: center;
         padding-top: 15px;
     }
-    .about-container.added .ab .ab-name hr{
-        margin-left: 30%;
+    .about-container.added .ab .hr{
+        margin-left: 35%;
     }
     .about-down-container .owl-carousel .owl-stage-outer .owl-stage .owl-item{
         padding-top: 15px;
@@ -527,41 +532,48 @@
         width:90%;
         margin-left: 5%;
     }
-    .services-container .ser-body .ser-card1,
-    .services-container .ser-body .ser-card2{
-        margin: 10px;
-    }
+    .services-container .ser-head .hr{
+        width: 60%;
+        margin-left: 20%;
+      }
     .services-container .ser-body .ser-card1 .ser-icon,
     .services-container .ser-body .ser-card2 .ser-icon{
-        width: 75px;
-        height: 75px;
+      width: 80px;
+      height: 80px;
     }
     .services-container .ser-body .ser-card1 .ser-icon a>.img,
-    .services-container .ser-body .ser-card2 .ser-icon a>.img{
-        width: 60px;
-        height: 60px;
-        padding:7px
-    }
-    .services-container .ser-body .ser-card1 .ser-desc a h4,
-    .services-container .ser-body .ser-card2 .ser-desc a h4{
-        font-size: 15px;
-    }
-    .services-container .ser-body .ser-card1 .ser-desc p,
-    .services-container .ser-body .ser-card2 .ser-desc p{
-        font-size: 10px;
-    }
+  .services-container .ser-body .ser-card2 .ser-icon a>.img{
+      width: 60px;
+      height: 60px;
+      padding: 10px;
+  }
     .services-container .ser-body .ser-card1 .ser-desc,
     .services-container .ser-body .ser-card2 .ser-desc{
-        margin-top: 10px;
+        height: 60px;
+        width: 100%;
+        padding-top: 20px;
     }
-    .services-container .ser-head .ser-name hr{
-        margin-left:10% ;
+    .services-container .ser-body .ser-card1 .ser-desc a h4{
+      font-size: 15px;
+    }
+    .services-container .ser-body .ser-card1 .ser-desc  a p{
+      font-size: 6px;
+    padding:  25px 5px 5px 10px;
     }
     .services-container .ser-body .ser-card2 .ser-desc a>.img{
-        width: 100px;
-        height: 50px;
-      }
+      position: absolute;
+      width: 80px;
+      height: 40px;
+      transition: 0.3s;
+    padding: 0px 5px 0px 0px;
+    }
+    
+    
     /* team */
+    .team-container .t-name .hr{
+        width: 70%;
+        margin-left: 15%;
+      }
     .team-container{
        padding: 5px;
     }
@@ -793,7 +805,7 @@
         text-align: center;
         padding-top: 15px;
     }
-    .about-container.added .ab .ab-name hr{
+    .about-container.added .ab .hr{
         margin-left: 30%;
     }
     .about-container.added .ab .ab-para p{
@@ -821,46 +833,50 @@
         width:90%;
         margin-left: 5%;
     }
+    .services-container .ser-head .hr{
+        width: 60%;
+        margin-left: 20%;
+      }
     .services-container .ser-head .ser-name>h3{
-        font-size: 30px;
-    }
-    .services-container .ser-body .ser-card1,
-    .services-container .ser-body .ser-card2{
-        margin: 10px;
+        font-size: 25px;
     }
     .services-container .ser-body .ser-card1 .ser-icon,
     .services-container .ser-body .ser-card2 .ser-icon{
-        width: 90px;
-        height: 90px;
+      width: 70px;
+      height: 70px;
     }
     .services-container .ser-body .ser-card1 .ser-icon a>.img,
-    .services-container .ser-body .ser-card2 .ser-icon a>.img{
-        width: 70px;
-        height: 70px;
-        padding:10px
-    }
-    .services-container .ser-body .ser-card1 .ser-desc a h4,
-    .services-container .ser-body .ser-card2 .ser-desc a h4{
-        font-size: 15px;
-    }
-    .services-container .ser-body .ser-card1 .ser-desc p,
-    .services-container .ser-body .ser-card2 .ser-desc p{
-        font-size: 10px;
-    }
+  .services-container .ser-body .ser-card2 .ser-icon a>.img{
+      width: 50px;
+      height: 50px;
+      padding: 10px;
+  }
     .services-container .ser-body .ser-card1 .ser-desc,
     .services-container .ser-body .ser-card2 .ser-desc{
-        margin-top: 10px;
+        height: 50px;
+        width: 100%;
+        padding-top: 20px;
     }
-    .services-container .ser-head .ser-name hr{
-        width: 250px;
-        margin-left:5% ;
+    .services-container .ser-body .ser-card1 .ser-desc a h4{
+      font-size: 12px;
+    }
+    .services-container .ser-body .ser-card1 .ser-desc  a p{
+      font-size: 6px;
+    padding:  25px 5px 5px 15px;
     }
     .services-container .ser-body .ser-card2 .ser-desc a>.img{
-        width: 100px;
-        height: 50px;
-        transition: 0.3s;
-      }
+      position: absolute;
+      width: 50px;
+      height: 30px;
+      transition: 0.3s;
+    padding: 0px 5px 0px 0px;
+    }
+    
     /* team */
+    .team-container .t-name .hr{
+        width: 80%;
+        margin-left: 10%;
+      }
     .team-container{
         padding: 5px;
      }

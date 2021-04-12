@@ -51,14 +51,14 @@ export default function Contact() {
                                         <div className="c-icon"><i className="fa fa-phone fa-lg" aria-hidden="true"></i></div>
                                         <div className="c-desc">
                                             <h3>Contact</h3>
-                                            <p>+91 8762688442</p>
+                                            <p><a href="tel:+91 8762688442" className="con-link">+91-876-268-8442</a></p>
                                         </div>
                                     </div>
                                     <div className="c-body">
                                         <div className="c-icon"><i className="fa fa-envelope-o fa-lg" aria-hidden="true"></i></div>
                                         <div className="c-desc">
                                             <h3>Email</h3>
-                                            <p>info@adis.co.in</p>
+                                            <p><a href="mailto:info@adis.co.in" className="con-link">info@adis.co.in</a></p>
                                         </div>
                                     </div>
                                 </div>

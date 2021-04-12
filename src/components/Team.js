@@ -15,7 +15,9 @@ function Team() {
                         <div>
                             Our Amazing Team
                         </div>
-                        <hr />
+                        <div className="hr">
+                            <hr />
+                        </div>
                     </div>
                     <div className="team-photo">
                         <div className="photo-container">
