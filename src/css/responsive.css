@@ -4,10 +4,11 @@
         height: 50vh;
     }
     .navigation-container{
-        height: 85px;
+        height: 90px;
     }
     nav .logo1{
-        padding: 10px 10px 10px 30px;
+        width: 15%;
+        padding: 5px 10px 10px 30px;
     }
     nav .navigation ul li a{
         padding:5px;
@@ -183,6 +184,9 @@
         width: 120px;
         height: 60px;
         transition: 0.3s;
+      }
+      .services-container .ser-body .ser-card2 .ser-desc .youtube iframe{
+        height: 70px;
       }
 
     /* team */
@@ -567,7 +571,9 @@
       transition: 0.3s;
     padding: 0px 5px 0px 0px;
     }
-    
+    .services-container .ser-body .ser-card2 .ser-desc .youtube iframe{
+        height: 35px;
+      }
     
     /* team */
     .team-container .t-name .hr{
@@ -871,7 +877,9 @@
       transition: 0.3s;
     padding: 0px 5px 0px 0px;
     }
-    
+    .services-container .ser-body .ser-card2 .ser-desc .youtube iframe{
+        height: 30px;
+      }
     /* team */
     .team-container .t-name .hr{
         width: 80%;

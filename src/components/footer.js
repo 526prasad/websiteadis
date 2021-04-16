@@ -42,7 +42,7 @@ export default function Footer() {
                     </div>
                     <div className="division2">
                         <div className="copyright">
-                            <h4>©2021 <a href="/websiteadis">adis.co.in </a>| All Rights Reserved.</h4>
+                            <h4>©2021 <a href="/">adis.co.in </a>| All Rights Reserved.</h4>
                             <h3>Managed by Adis Technologies Pvt Ltd | Belagavi</h3>
                         </div>
                     </div>

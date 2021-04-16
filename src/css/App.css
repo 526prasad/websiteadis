@@ -36,7 +36,7 @@ nav.active{
   box-shadow: 1px 1px 10px gainsboro;
 }
 nav .logo1{
-  width: 35%;
+  width: 15%;
   padding: 5px 5px 5px 100px;
 }
 nav .logo1 .logo{
@@ -50,14 +50,14 @@ nav .navigation{
 nav .navigation ul{
   display: flex;
   float: right;
-  margin-top: 10px;
+  margin-top: 20px;
   list-style-type: none;
   justify-content: space-between;
 }
 nav .navigation ul li a{
   justify-content: space-between;
   text-decoration: none;
-  padding: 12px 12px;
+  padding: 11px 11px;
 
 }
 nav .navigation ul li a:hover{
@@ -111,12 +111,6 @@ nav .navigation ul li a:hover{
   padding: 5px;
   color: rgb(80, 80, 80);
 }
-/* .f-container .part1 .div1 .brand-name{
-  padding: 5px;
-  color: #cf7500;
-  font-size: 25px;
-  font-weight: 500;
-} */
 .f-container .part1 .div1 .brand-tag{
   padding:5px ;
   letter-spacing: 0.3px;
@@ -644,12 +638,24 @@ nav .navigation ul li a:hover{
   color: #0D96DA;
   justify-content: space-between;
 }
+.services-container .ser-body .ser-card2 .ser-desc a{
+  text-align: center;
+  align-items: center;
+}
 .services-container .ser-body .ser-card2 .ser-desc a>.img{
   position: absolute;
   width: 200px;
   height: 100px;
   transition: 0.3s;
 }
+.services-container .ser-body .ser-card2 .ser-desc .youtube{
+  width: 20%;
+  margin-left: 5%;
+}
+.services-container .ser-body .ser-card2 .ser-desc .youtube iframe{
+  height: 100px;
+}
+
 .services-container .ser-body .ser-card2 .ser-icon,
 .services-container .ser-body .ser-card1 .ser-desc{
   animation-name: description;
@@ -925,11 +931,91 @@ nav .navigation ul li a:hover{
 .home .login-container .btns .btns1 .button-container .button:hover{
   box-shadow: 5px 5px 10px gainsboro;
 }
+/* partners */
+.partners{
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  z-index: 0;
+  background: linear-gradient(45deg, rgb(239, 241, 242) 50%, rgb(208, 227, 247) 50%);
 
-
-
-
-
-
+}
+.partners .p-container{
+  padding: 5px;
+}
+.partners .p-container .mentor,
+.partners .p-container .fund{
+  padding: 50px;
+  overflow: hidden;
+}
+.partners .p-container .mentor .m-container{
+  width: 100%;
+  /* background: linear-gradient(45deg, rgb(207, 230, 255) 50%, rgb(239, 241, 242) 50%); */
+}
+.partners .p-container .fund .f-container{
+  width: 100%;
+  /* background: linear-gradient(45deg, rgb(239, 241, 242) 50%, rgb(208, 227, 247) 50%); */
+}
+.partners .p-container .mentor .m-container .m-head,
+.partners .p-container .fund .f-container .f-head{
+  text-align: center;
+  padding: 20px;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px rgb(106, 181, 221);
+  margin-bottom: 20px;
+}
+.partners .p-container .mentor .m-container .m-head h3,
+.partners .p-container .fund .f-container .f-head h3{
+  font-size: 35px;
+  font-weight: 700;
+  font-family:'Times New Roman', Times, serif;
+  color: #1587CE;
+}
+.partners .p-container .mentor .m-container .m-body,
+.partners .p-container .fund .f-container .f-body{
+  width: 100%;
+}
+.partners .p-container .mentor .m-container .m-body .owl-carousel,
+.partners .p-container .fund .f-container .f-body .owl-carousel{
+  overflow: hidden;
+  z-index: 0;
+}
+.partners .p-container .mentor .m-container .m-body .m-card,
+.partners .p-container .fund .f-container .f-body .f-card{
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
+  height: 300px;
+  margin-bottom: 20px;
+}
+.partners .p-container .mentor .m-container .m-body .m-card:hover,
+.partners .p-container .fund .f-container .f-body .f-card:hover{
+  box-shadow: 0px 0px 5px rgb(144, 191, 218);
+}
+.partners .p-container .mentor .m-container .m-body .m-card .m-logo,
+.partners .p-container .fund .f-container .f-body .f-card .f-logo{
+  padding: 40px;
+  height: 100px;
+}
+.partners .p-container .mentor .m-container .m-body .m-card .m-logo>img,
+.partners .p-container .fund .f-container .f-body .f-card .f-logo>img{
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+.partners .p-container .mentor .m-container .m-body .m-card .m-name,
+.partners .p-container .fund .f-container .f-body .f-card .f-name{
+  padding: 5px 5px 5px 30px;
+}
+.partners .p-container .mentor .m-container .m-body .m-card .m-name h4,
+.partners .p-container .fund .f-container .f-body .f-card .f-name h4{
+  font-size: 20px;
+  color: #1a1c20;
+}
+.partners .p-container .mentor .m-container .m-body .m-card:hover .m-name h4,
+.partners .p-container .fund .f-container .f-body .f-card:hover .f-name h4{
+  font-size: 20px;
+  color: #2965dd;
+}
 
 

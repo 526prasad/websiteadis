@@ -12,8 +12,9 @@ import Services from './Services';
 import Team from './Team';
 import Contact from './Contact';
 import Login from './Login';
+import Partners from './partners';
 import { TitleComponent } from './TitleComponent';
-import logo from '../assets/mainlogo.png'
+import logo from '../assets/mainlogo.png';
 
 function Nav() {
     const [active, setActive] = useState(false);
@@ -44,9 +45,10 @@ function Nav() {
     // const HomeComponent = withTitle({ component: Home, title: 'Home' });
     const AboutComponent = withTitle({ component: About, title: 'About' });
     const ContactComponent = withTitle({ component: Contact, title: 'Contact' });
-    const ServicesComponent = withTitle({ component: Services, title: 'Services' });
+    const ServicesComponent = withTitle({ component: Services, title: 'Products' });
     const TeamComponent = withTitle({ component: Team, title: 'Team' });
     const LoginComponent = withTitle({ component: Login, title: 'Login' });
+    const PartnersComponent = withTitle({ component: Partners, title: 'Partners' });
 
 
 
@@ -65,10 +67,13 @@ function Nav() {
                                     <NavLink to="/about" activeClassName="navbar__link--active" className="navbar__link">About</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to="/services" activeClassName="navbar__link--active" className="navbar__link">Services</NavLink>
+                                    <NavLink to="/services" activeClassName="navbar__link--active" className="navbar__link">Products</NavLink>
                                 </li>
                                 <li>
                                     <NavLink to="/team" activeClassName="navbar__link--active" className="navbar__link">Team</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink to="/partners" activeClassName="navbar__link--active" className="navbar__link">Our Partners</NavLink>
                                 </li>
                                 <li>
                                     <NavLink to="/contact" activeClassName="navbar__link--active" className="navbar__link">Contact</NavLink>
@@ -96,6 +101,9 @@ function Nav() {
                     </Route>
                     <Route path="/login" component={LoginComponent}>
                         <Login />
+                    </Route>
+                    <Route path="/partners" component={PartnersComponent}>
+                        <Partners />
                     </Route>
                     <Route path="/websiteadis" exact={true}>
                         <Home />
