@@ -37,7 +37,7 @@ function Team() {
                                     </div>
                                     <div className="social-media">
                                         <div>
-                                            <a href="/" rel="noopener noreferrer" target="_blank"> <i className="fa fa-facebook-official" aria-hidden="true"></i></a>
+                                            <a href="https://www.facebook.com/cujit/" rel="noopener noreferrer" target="_blank"> <i className="fa fa-facebook-official" aria-hidden="true"></i></a>
                                         </div>
                                         <div>
                                             <a href="/" rel="noopener noreferrer" target="_blank"> <i className="fa fa-twitter" aria-hidden="true"></i></a>
@@ -61,7 +61,7 @@ function Team() {
                                     </div>
                                     <div className="social-media">
                                         <div>
-                                            <a href="/" rel="noopener noreferrer" target="_blank"> <i className="fa fa-facebook-official" aria-hidden="true"></i></a>
+                                            <a href="https://www.facebook.com/prasad.desai.391" rel="noopener noreferrer" target="_blank"> <i className="fa fa-facebook-official" aria-hidden="true"></i></a>
                                         </div>
                                         <div>
                                             <a href="/" rel="noopener noreferrer" target="_blank"> <i className="fa fa-twitter" aria-hidden="true"></i></a>
@@ -85,7 +85,7 @@ function Team() {
                                     </div>
                                     <div className="social-media">
                                         <div>
-                                            <a href="/" rel="noopener noreferrer" target="_blank"> <i className="fa fa-facebook-official" aria-hidden="true"></i></a>
+                                            <a href="https://www.facebook.com/vedavahan/" rel="noopener noreferrer" target="_blank"> <i className="fa fa-facebook-official" aria-hidden="true"></i></a>
                                         </div>
                                         <div>
                                             <a href="/" rel="noopener noreferrer" target="_blank"> <i className="fa fa-twitter" aria-hidden="true"></i></a>
