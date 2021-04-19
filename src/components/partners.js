@@ -8,7 +8,7 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 // images
 import ktech from '../assets/ktech.png';
-import ccamp from '../assets/CCAMP.png'; 
+import ccamp from '../assets/ccamp.png'; 
 import deptA from '../assets/kar-logo.png';
 import birac from '../assets/birac.png';
 import startup from '../assets/startup.jpg';
@@ -69,6 +69,14 @@ class Partners extends React.Component {
                                 </div>
                                 <div className="m-body">
                                     <OwlCarousel className="slider-items owl-carousel" {...option}>
+                                    <div className="m-card">
+                                            <div className="m-logo">
+                                                <img className="ccamp" src={ccamp} alt="ccamp"></img>
+                                            </div>
+                                            <div className="m-name">
+                                                <h4>C-CAMP</h4>
+                                            </div>
+                                        </div>
                                         <div className="m-card">
                                             <div className="m-logo">
                                                 <img className="ktech" src={ktech} alt="ktech"></img>
@@ -77,14 +85,7 @@ class Partners extends React.Component {
                                                 <h4>K-TECH</h4>
                                             </div>
                                         </div>
-                                        <div className="m-card">
-                                            <div className="m-logo">
-                                                <img className="ccamp" src={ccamp} alt="ccamp"></img>
-                                            </div>
-                                            <div className="m-name">
-                                                <h4>C-CAMP</h4>
-                                            </div>
-                                        </div>
+                                        
                                         <div className="m-card">
                                             <div className="m-logo">
                                                 <img className="deptA" src={deptA} alt="deptA" ></img>
