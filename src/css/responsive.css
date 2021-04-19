@@ -241,6 +241,49 @@
       .login-main .login-body .input-body .input{
         margin-left:0%;
       }
+      /* partners */
+        .partners .p-container .mentor,
+        .partners .p-container .fund{
+            padding: 20px 30px 20px 30px;
+        }
+        .partners .p-container .mentor .m-container .m-head h3,
+        .partners .p-container .fund .f-container .f-head h3{
+            font-size: 30px;
+        }
+        .partners .p-container .mentor .m-container .m-body .m-card,
+        .partners .p-container .fund .f-container .f-body .f-card{
+            height: 250px;
+            margin-bottom: 10px;
+        }
+        .partners .p-container .mentor .m-container .m-body .m-card .m-name h4,
+        .partners .p-container .fund .f-container .f-body .f-card .f-name h4{
+            font-size: 18px;
+        }
+        .partners .p-container .mentor .m-container .m-body .m-card .m-logo,
+        .partners .p-container .fund .f-container .f-body .f-card .f-logo{
+            padding: 15px;
+            height: 100px;
+        }
+        .partners .p-container .mentor .m-container .m-body .m-card .m-logo>.ktech{
+            height:50px;
+            width:140px;
+        }
+        .partners .p-container .mentor .m-container .m-body .m-card .m-logo>.ccamp{
+            height:80px;
+            width:160px;
+        }
+        .partners .p-container .mentor .m-container .m-body .m-card .m-logo>.deptA{
+            height:80px;
+            width:100px;
+        }
+        .partners .p-container .fund .f-container .f-body .f-card .f-logo>.startup{
+            height:130px;
+            width:150px;
+        }
+        .partners .p-container .fund .f-container .f-body .f-card .f-logo>.birac{
+            height:110px;
+            width:130px;
+        }
 }
 @media only screen and (min-width:350px) and (max-width: 600px){
     .header{
@@ -602,6 +645,52 @@
         margin-left: 10%;
         height: 200px;
       }
+       /* partners */
+       .partners .p-container .mentor,
+       .partners .p-container .fund{
+           padding: 20px 30px 5px 30px;
+       }
+       .partners .p-container .mentor .m-container .m-head h3,
+       .partners .p-container .fund .f-container .f-head h3{
+           font-size: 22px;
+       }
+       .partners .p-container .mentor .m-container .m-body .m-card{
+            height: 150px;
+            margin-bottom: 5px;
+       }
+       .partners .p-container .fund .f-container .f-body .f-card{
+           height: 200px;
+           margin-bottom: 5px;
+       }
+       .partners .p-container .mentor .m-container .m-body .m-card .m-name h4,
+       .partners .p-container .fund .f-container .f-body .f-card .f-name h4{
+           font-size: 15px;
+       }
+       .partners .p-container .mentor .m-container .m-body .m-card .m-logo,
+       .partners .p-container .fund .f-container .f-body .f-card .f-logo{
+           padding: 10px;
+           height: 90px;
+       }
+       .partners .p-container .mentor .m-container .m-body .m-card .m-logo>.ktech{
+           height:50px;
+           width:140px;
+       }
+       .partners .p-container .mentor .m-container .m-body .m-card .m-logo>.ccamp{
+           height:80px;
+           width:160px;
+       }
+       .partners .p-container .mentor .m-container .m-body .m-card .m-logo>.deptA{
+           height:80px;
+           width:100px;
+       }
+       .partners .p-container .fund .f-container .f-body .f-card .f-logo>.startup{
+           height:120px;
+           width:140px;
+       }
+       .partners .p-container .fund .f-container .f-body .f-card .f-logo>.birac{
+           height:100px;
+           width:120px;
+       }
 }
 
 @media only screen and (min-width:280px) and (max-width: 340px){
@@ -1002,5 +1091,51 @@
         padding-bottom: 0px ;
         padding-left: 0;
         flex-flow: column nowrap;
+      }
+      /* partners */
+      .partners .p-container .mentor,
+      .partners .p-container .fund{
+          padding: 20px 30px 5px 30px;
+      }
+      .partners .p-container .mentor .m-container .m-head h3,
+      .partners .p-container .fund .f-container .f-head h3{
+          font-size: 20px;
+      }
+      .partners .p-container .mentor .m-container .m-body .m-card{
+           height: 150px;
+           margin-bottom: 5px;
+      }
+      .partners .p-container .fund .f-container .f-body .f-card{
+          height: 200px;
+          margin-bottom: 5px;
+      }
+      .partners .p-container .mentor .m-container .m-body .m-card .m-name h4,
+      .partners .p-container .fund .f-container .f-body .f-card .f-name h4{
+          font-size: 15px;
+      }
+      .partners .p-container .mentor .m-container .m-body .m-card .m-logo,
+      .partners .p-container .fund .f-container .f-body .f-card .f-logo{
+          padding: 10px;
+          height: 90px;
+      }
+      .partners .p-container .mentor .m-container .m-body .m-card .m-logo>.ktech{
+          height:50px;
+          width:140px;
+      }
+      .partners .p-container .mentor .m-container .m-body .m-card .m-logo>.ccamp{
+          height:80px;
+          width:160px;
+      }
+      .partners .p-container .mentor .m-container .m-body .m-card .m-logo>.deptA{
+          height:80px;
+          width:100px;
+      }
+      .partners .p-container .fund .f-container .f-body .f-card .f-logo>.startup{
+          height:120px;
+          width:140px;
+      }
+      .partners .p-container .fund .f-container .f-body .f-card .f-logo>.birac{
+          height:100px;
+          width:120px;
       }
 }

@@ -71,7 +71,7 @@ class Partners extends React.Component {
                                     <OwlCarousel className="slider-items owl-carousel" {...option}>
                                         <div className="m-card">
                                             <div className="m-logo">
-                                                <img src={ktech} alt="ktech" style={{height:"60px", width:"150px"}}></img>
+                                                <img className="ktech" src={ktech} alt="ktech"></img>
                                             </div>
                                             <div className="m-name">
                                                 <h4>K-TECH</h4>
@@ -79,7 +79,7 @@ class Partners extends React.Component {
                                         </div>
                                         <div className="m-card">
                                             <div className="m-logo">
-                                                <img src={ccamp} alt="ccamp" style={{height:"90px", width:"170px"}}></img>
+                                                <img className="ccamp" src={ccamp} alt="ccamp"></img>
                                             </div>
                                             <div className="m-name">
                                                 <h4>C-CAMP</h4>
@@ -87,7 +87,7 @@ class Partners extends React.Component {
                                         </div>
                                         <div className="m-card">
                                             <div className="m-logo">
-                                                <img src={deptA} alt="deptA" style={{height:"90px", width:"110px"}}></img>
+                                                <img className="deptA" src={deptA} alt="deptA" ></img>
                                             </div>
                                             <div className="m-name">
                                                 <h4>Department Of Animal Husbandary And Fisheries</h4>
@@ -106,18 +106,18 @@ class Partners extends React.Component {
                                     <OwlCarousel className="slider-items owl-carousel" {...options}>
                                         <div className="f-card">
                                             <div className="f-logo">
-                                                <img src={birac} alt="birac"></img>
+                                                <img className="startup" src={startup} alt="startup"></img>
                                             </div>
                                             <div className="f-name">
-                                                <h4>BIG BIRAC</h4>
+                                                <h4>Start-Up India -Animal Husbandary Grand Challenge-2021</h4>
                                             </div>
                                         </div>
                                         <div className="f-card">
                                             <div className="f-logo">
-                                                <img src={startup} alt="startup" style={{height:"120px", width:"180px"}}></img>
+                                                <img className="birac" src={birac} alt="birac"></img>
                                             </div>
                                             <div className="f-name">
-                                                <h4>Start-Up India -Animal Husbandary Grand Challenge-2021</h4>
+                                                <h4>BIG BIRAC</h4>
                                             </div>
                                         </div>
                                     </OwlCarousel>

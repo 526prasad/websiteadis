@@ -937,7 +937,7 @@ nav .navigation ul li a:hover{
   overflow: hidden;
   background-color: #fff;
   z-index: 0;
-  background: linear-gradient(45deg, rgb(239, 241, 242) 50%, rgb(208, 227, 247) 50%);
+  background: linear-gradient(45deg, rgb(253, 254, 255) 50%, rgb(208, 227, 247) 50%);
 
 }
 .partners .p-container{
@@ -999,13 +999,12 @@ nav .navigation ul li a:hover{
 }
 .partners .p-container .mentor .m-container .m-body .m-card .m-logo>img,
 .partners .p-container .fund .f-container .f-body .f-card .f-logo>img{
-  width: 150px;
+  /* width: 150px; */
   display: block;
   margin: 0 auto;
 }
-.partners .p-container .mentor .m-container .m-body .m-card .m-name,
 .partners .p-container .fund .f-container .f-body .f-card .f-name{
-  padding: 5px 5px 5px 30px;
+  padding-top:20px;
 }
 .partners .p-container .mentor .m-container .m-body .m-card .m-name h4,
 .partners .p-container .fund .f-container .f-body .f-card .f-name h4{
@@ -1014,8 +1013,25 @@ nav .navigation ul li a:hover{
 }
 .partners .p-container .mentor .m-container .m-body .m-card:hover .m-name h4,
 .partners .p-container .fund .f-container .f-body .f-card:hover .f-name h4{
-  font-size: 20px;
   color: #2965dd;
 }
-
-
+.partners .p-container .mentor .m-container .m-body .m-card .m-logo>.ktech{
+  height:60px;
+  width:150px;
+}
+.partners .p-container .mentor .m-container .m-body .m-card .m-logo>.ccamp{
+  height:90px;
+  width:170px;
+}
+.partners .p-container .mentor .m-container .m-body .m-card .m-logo>.deptA{
+  height:90px;
+  width:110px;
+}
+.partners .p-container .fund .f-container .f-body .f-card .f-logo>.startup{
+  height:140px;
+  width:170px;
+}
+.partners .p-container .fund .f-container .f-body .f-card .f-logo>.birac{
+  height:120px;
+  width:140px;
+}
