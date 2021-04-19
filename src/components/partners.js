@@ -74,7 +74,7 @@ class Partners extends React.Component {
                                                 <img src={ktech} alt="ktech" style={{height:"60px", width:"150px"}}></img>
                                             </div>
                                             <div className="m-name">
-                                                <h4>K-TACH</h4>
+                                                <h4>K-TECH</h4>
                                             </div>
                                         </div>
                                         <div className="m-card">
@@ -114,7 +114,7 @@ class Partners extends React.Component {
                                         </div>
                                         <div className="f-card">
                                             <div className="f-logo">
-                                                <img src={startup} alt="startup" style={{height:"100px", width:"190px"}}></img>
+                                                <img src={startup} alt="startup" style={{height:"120px", width:"180px"}}></img>
                                             </div>
                                             <div className="f-name">
                                                 <h4>Start-Up India -Animal Husbandary Grand Challenge-2021</h4>
