@@ -11,7 +11,7 @@ import ktech from '../assets/ktech.png';
 import ccamp from '../assets/ccamp.png'; 
 import deptA from '../assets/kar-logo.png';
 import birac from '../assets/birac.png';
-import startup from '../assets/startup.jpg';
+import startup from '../assets/startup.png';
 const option = {
     nav:false,
     items: 2,

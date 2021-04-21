@@ -24,7 +24,7 @@ class Services extends React.Component {
                                 <hr/>
                             </div>
                             <div className="ser-par">
-                                <p>Under Development!!!</p>
+                                <p>Under Development...</p>
                             </div>
                         </div>
                         <div className="ser-body">
