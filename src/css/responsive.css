@@ -48,9 +48,13 @@
     .download .dow-container .download-btn{
         width: 70%;
     }
+    .download .dow-container .download-btn .btns{
+        width: 60%;
+        margin-left: 20%;
+    }
     .download .dow-container .download-btn a .google .btn-name .btn-name-get,
     .download .dow-container .download-btn a .apple .btn-name .btn-name-on{
-    font-size: 8px;
+        font-size: 8px;
     }
     .download .dow-container .download-btn a .google .btn-name .btn-name-google,
     .download .dow-container .download-btn a .apple .btn-name .btn-name-apple{
@@ -276,14 +280,27 @@
             height:80px;
             width:100px;
         }
-        .partners .p-container .fund .f-container .f-body .f-card .f-logo>.startup{
-            height:130px;
-            width:150px;
-        }
         .partners .p-container .fund .f-container .f-body .f-card .f-logo>.birac{
             height:110px;
             width:130px;
         }
+        .partners .p-container .fund .f-container .f-body .f-card .logos{
+            padding: 5px;
+        }
+        .partners .p-container .fund .f-container .f-body .f-card .logos>.start{
+            width: 100px;
+            height: 30px;
+            margin-top:50px;
+          }
+          .partners .p-container .fund .f-container .f-body .f-card .logos>.invest{
+            width: 100px;
+            height: 100px;
+            margin-top: 10px;
+          }
+          .partners .p-container .fund .f-container .f-body .f-card .logos>.govt{
+            width: 100px;
+            height: 100px;
+          }
 }
 @media only screen and (min-width:350px) and (max-width: 600px){
     .header{
@@ -386,6 +403,10 @@
     }
     .download .dow-container .download-btn{
         width: 100%;
+    }
+    .download .dow-container .download-btn .btns{
+        width: 60%;
+        margin-left: 20%;
     }
     .download .dow-container .mobile-img{
         width: 100%;
@@ -683,14 +704,27 @@
            height:80px;
            width:100px;
        }
-       .partners .p-container .fund .f-container .f-body .f-card .f-logo>.startup{
-           height:120px;
-           width:140px;
-       }
        .partners .p-container .fund .f-container .f-body .f-card .f-logo>.birac{
            height:100px;
            width:120px;
        }
+       .partners .p-container .fund .f-container .f-body .f-card .logos{
+        padding: 5px;
+    }
+    .partners .p-container .fund .f-container .f-body .f-card .logos>.start{
+        width: 80px;
+        height: 20px;
+        margin-top:50px;
+      }
+      .partners .p-container .fund .f-container .f-body .f-card .logos>.invest{
+        width: 90px;
+        height: 90px;
+        margin-top: 10px;
+      }
+      .partners .p-container .fund .f-container .f-body .f-card .logos>.govt{
+        width: 90px;
+        height: 90px;
+      }
 }
 
 @media only screen and (min-width:280px) and (max-width: 340px){
@@ -822,6 +856,10 @@
     .f-container .part2 .division2 .copyright>h3{
         font-size: 10px;
         text-align: center;
+    }
+    .download .dow-container .download-btn .btns{
+        width: 60%;
+        margin-left: 20%;
     }
     .download .dow-container .download-btn a .google,
     .download .dow-container .download-btn a .apple{
@@ -1130,12 +1168,26 @@
           height:80px;
           width:100px;
       }
-      .partners .p-container .fund .f-container .f-body .f-card .f-logo>.startup{
-          height:120px;
-          width:140px;
-      }
+      
       .partners .p-container .fund .f-container .f-body .f-card .f-logo>.birac{
           height:100px;
           width:120px;
+      }
+      .partners .p-container .fund .f-container .f-body .f-card .logos{
+        padding: 5px;
+    }
+    .partners .p-container .fund .f-container .f-body .f-card .logos>.start{
+        width: 70px;
+        height: 20px;
+        margin-top:45px;
+      }
+      .partners .p-container .fund .f-container .f-body .f-card .logos>.invest{
+        width: 80px;
+        height: 80px;
+        margin-top: 10px;
+      }
+      .partners .p-container .fund .f-container .f-body .f-card .logos>.govt{
+        width: 80px;
+        height: 80px;
       }
 }

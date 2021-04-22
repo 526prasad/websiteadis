@@ -11,7 +11,10 @@ import ktech from '../assets/ktech.png';
 import ccamp from '../assets/ccamp.png'; 
 import deptA from '../assets/kar-logo.png';
 import birac from '../assets/birac.png';
-import startup from '../assets/startup.png';
+import start from '../assets/start.png';
+import invest from '../assets/invest.png';
+import govt from '../assets/govt.png';
+
 const option = {
     nav:false,
     items: 2,
@@ -106,8 +109,10 @@ class Partners extends React.Component {
                                 <div className="f-body">
                                     <OwlCarousel className="slider-items owl-carousel" {...options}>
                                         <div className="f-card">
-                                            <div className="f-logo">
-                                                <img className="startup" src={startup} alt="startup"></img>
+                                            <div className="f-logo logos">
+                                                <img className="start" src={start} alt="startup"></img>
+                                                <img className="govt" src={govt} alt="birac"></img>
+                                                <img className="invest" src={invest} alt="startup"></img>
                                             </div>
                                             <div className="f-name">
                                                 <h4>Start-Up India -Animal Husbandary Grand Challenge-2021</h4>

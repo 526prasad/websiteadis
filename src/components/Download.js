@@ -1,7 +1,7 @@
 import React from 'react';
-import screenshot from '../assets/screenshot.jpeg';
+import screenshot from '../assets/screenshot.jpg';
 import playstore from '../assets/playstore.svg';
-import apple from '../assets/apple.svg';
+// import apple from '../assets/apple.svg';
 
 function Download() {
     return (
@@ -19,7 +19,7 @@ function Download() {
                                 </div>
                             </div>
                         </a>
-                        <a href="/" target="_blank" rel="noopener noreferrer" className="apple-btn">
+                        {/* <a href="/" target="_blank" rel="noopener noreferrer" className="apple-btn">
                             <div className="apple">
                                 <img src={apple} alt="apple" />
                                 <div className="btn-name">
@@ -27,10 +27,10 @@ function Download() {
                                     <p className="btn-name-apple">Apple Store</p>
                                 </div>
                             </div>
-                        </a>
-                        <div className="hide">
+                        </a> */}
+                        {/* <div className="hide">
                             <div>Coming soon</div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className="mobile-img">

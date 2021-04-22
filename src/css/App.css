@@ -101,7 +101,7 @@ nav .navigation ul li a:hover{
 }
 .f-container .part1 .div1,
 .f-container .part1 .div2{
-  width: 25%;
+  width: 30%;
   flex-flow: row;
 }
 .f-container .part1 .div1 .heading,
@@ -134,7 +134,7 @@ nav .navigation ul li a:hover{
   font-size: 14px;
 }
 .div3{
-  width: 50%;
+  width: 40%;
 }
 .download{
   overflow: hidden;
@@ -159,13 +159,17 @@ nav .navigation ul li a:hover{
 .download .dow-container .download-btn .download-name{
   text-align: center;
   font-size: 22px;
+  margin-top: 10px;
 }
 .download .dow-container .download-btn .btns{
-  display: flex;
-  margin-top: 10px;
+  /* display: flex; */
+  /* margin-top: 10px; */
+  width: 70%;
+  margin-left: 15%;
 }
 .download .dow-container .download-btn a{
   width: 50%;
+  margin-left: 25%;
 }
 .download .dow-container .download-btn a .google,
 .download .dow-container .download-btn a .apple{
@@ -217,7 +221,7 @@ nav .navigation ul li a:hover{
   align-items: center;
 }
 .download .dow-container .mobile-img>img{
-  width: 150px;
+  width: 125px;
   height: 250px;
 }
 .f-container .part2{
@@ -1027,11 +1031,30 @@ nav .navigation ul li a:hover{
   height:90px;
   width:110px;
 }
-.partners .p-container .fund .f-container .f-body .f-card .f-logo>.startup{
-  height:170px;
-  width:240px;
-}
+/* .partners .p-container .fund .f-container .f-body .f-card .f-logo>.startup{ */
+  /* height:190px; */
+  /* width:250px; */
+/* } */
 .partners .p-container .fund .f-container .f-body .f-card .f-logo>.birac{
   height:120px;
   width:140px;
+}
+.partners .p-container .fund .f-container .f-body .f-card>.logos{
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 5px;
+}
+.partners .p-container .fund .f-container .f-body .f-card .logos>.start{
+  width: 140px;
+  height: 45px;
+  margin-top:80px;
+}
+.partners .p-container .fund .f-container .f-body .f-card .logos>.invest{
+  width: 130px;
+  height: 130px;
+  margin-top: 30px;
+}
+.partners .p-container .fund .f-container .f-body .f-card .logos>.govt{
+  width: 150px;
+  height: 150px;
 }
