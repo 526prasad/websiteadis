@@ -1,16 +1,23 @@
-import React from 'react';
-import cowMouth from '../assets/Cows.jpg'
-import desi from '../assets/desistores.png'
-import logo from '../assets/logo.png'
-import logo2 from '../assets/mainlogo.png'
+import React, { useState } from 'react';
+import cowMouth from '../assets/Cows.jpg';
+import desi from '../assets/desistores.png';
+import logo from '../assets/logo.png';
+import logo2 from '../assets/mainlogo.png';
+import banner from '../assets/desi_banner.jpg';
+import btn from '../assets/play_btn.png';
 //fontawesome
 import 'font-awesome/css/font-awesome.min.css';
 import { TitleComponent } from './TitleComponent';
 
 
-class Services extends React.Component {
-    render() {
-        // function Services() {
+// class Services extends React.Component {
+    // render() {
+    function Services() {
+        const [Handleclick,setOnclick]=useState(false);
+
+        const videoPlay =<div className="video">
+                            <iframe src="https://www.youtube.com/embed/8euaZgSE8xs" title="YouTube video player" frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
         return (
             <React.Fragment>
                 <TitleComponent title="Products" />
@@ -43,10 +50,12 @@ class Services extends React.Component {
                                 <div className="ser-icon">
                                     <a href="https://desistores.in/" rel="noreferrer" target="_blank"><img className="img" src={logo} alt="desi" /></a>
                                 </div>
-                                <div className="ser-desc">
+                                <div className="ser-desc desistore">
                                     <a href="https://desistores.in/" rel="noreferrer" target="_blank"><img className="img" src={desi} alt="desi" /></a>
-                                    <div className="youtube">
-                                        <iframe width="100%"  src="https://www.youtube.com/embed/8euaZgSE8xs" title="YouTube video player" frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <div className={Handleclick ? "youtube fullscreen":"youtube"}  onClick={()=> {setOnclick(!Handleclick)}}>
+                                        <img className="banner" src={banner} alt="banner"/>
+                                        <img className="btn" src={btn} alt="btn" ></img>
+                                        {videoPlay}
                                     </div>
                                 </div>
                             </div>
@@ -55,8 +64,10 @@ class Services extends React.Component {
                                     <a href="https://www.youtube.com/c/utjitdesicows/videos" rel="noreferrer" target="_blank"><img className="img" src={cowMouth} alt="desi" /></a>
                                 </div>
                                 <div className="ser-desc">
-                                    <a href="https://www.youtube.com/c/utjitdesicows/videos" rel="noreferrer" target="_blank"><h4>Desi Cows </h4>
-                                    <p>Our YouTube Channel</p></a>
+                                    <a href="https://www.youtube.com/c/utjitdesicows/videos" rel="noreferrer" target="_blank">
+                                        <h4>Desi Cows </h4>
+                                        <p>Our YouTube Channel</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -65,5 +76,5 @@ class Services extends React.Component {
             </React.Fragment>
         );
     }
-}
+// }
 export default Services;

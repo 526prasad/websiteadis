@@ -1,5 +1,6 @@
 import React from 'react';
 import screenshot from '../assets/screenshot.jpg';
+import screenshot1 from '../assets/screenshot1.jpeg';
 import playstore from '../assets/playstore.svg';
 // import apple from '../assets/apple.svg';
 
@@ -34,6 +35,7 @@ function Download() {
                     </div>
                 </div>
                 <div className="mobile-img">
+                    <img src={screenshot1} alt="img" />
                     <img src={screenshot} alt="img" />
                 </div>
             </div>
